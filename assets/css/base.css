@@ -1,0 +1,101 @@
+:root {
+  /**Cores*/
+  /* Botao */
+  --cor-border-dashed:    #7B61FF;
+  --branco:               #FFFFFF;
+  
+  /* Hierarquia=Primário, Estado=Comum, Tamanho=Desktop */
+  --cor-do-Bg-PCD:        #2A7AE4;
+  --cor-do-texto-PCD:    var(--branco);
+  
+  /* Hierarquia=Primário, Estado=Hover, Tamanho=Desktop */
+  --cor-do-Bg-PHD:        #5595E9;
+  --cor-do-texto-PHD:    var(--branco);
+
+  /* Hierarquia=Primário, Estado=Comum, Tamanho=Mobile */
+  --cor-do-Bg-PCM:        #2A7AE4;
+  --cor-do-texto-PCM:     var(--branco);
+  
+  /* Hierarquia=Primário, Estado=Hover, Tamanho=Mobile */
+  --cor-do-Bg-PHM:        #5595E9;
+  --cor-do-texto-PHM:     var(--branco);
+  
+  /* Hierarquia=Secundário, Estado=Comum, Tamanho=Desktop */
+  --cor-da-Borda-SCD:     #2A7AE4;
+  --cor-do-texto-SCD:     #2A7AE4;
+  
+  /* Hierarquia=Secundário, Estado=Hover, Tamanho=Desktop */
+  --cor-do-Bg-SHD:         #D4E4FA;
+  --cor-da-Borda-SHD:      #2A7AE4;
+  --cor-do-texto-SHD:      #2A7AE4;
+  
+  /* Hierarquia=Secundário, Estado=Comum, Tamanho=Mobile */
+  --cor-da-Borda-SCM:      #2A7AE4;
+  --cor-do-texto-SCM:      #2A7AE4;
+  
+  /* Hierarquia=Secundário, Estado=Hover, Tamanho=Mobile */
+  --cor-do-Bg-SHM:         #D4E4FA;
+  --cor-da-Borda-SHM:      #2A7AE4;
+  --cor-da-texto-SHM:      #2A7AE4;
+  
+  /* Hierarquia=Login */
+  --cor-da-Borda-l:        #2A7AE4;
+  --cor-do-texto-l:        #2A7AE4;
+
+	/* Font */
+	--cor-do-titulo:         #2C2C2C;
+	--cor-do-texto:          #464646;
+  --cor-do-texto-busca:    #A2A2A2;
+  --cor-do-preco:          #198F51;
+	--cor-v-produto:         #00227E;
+	
+  /* Background */
+	--cor-do-Bg-azul:        #EAF2FD;
+  --cor-do-Bg-cinza:       #F5F5F5;
+}	
+
+  /* 
+  * Mobile - 280px, 360px, 375px
+  */
+  
+  /*
+  * Tablet - 480px, 768px
+  */
+  
+  /*
+  * Desktop - 900px, 1024px, 1156px , 1280px, 1440px
+  */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto !important;
+}
+
+.container {
+  padding-right: 6%;
+  padding-left: 6%;
+}
+
+/* @media screen and (min-width: 360px) {
+  .container {
+    padding-left: calc((100% - 1440px)/2);
+    padding-right: calc((100% - 1440px)/2);
+}
+}
+
+@media screen and (min-width: 768px) {
+
+} */
+
+@media screen and (min-width: 1280px) {
+  .container {
+      padding-left: calc((100% - 1440px)/2);
+      padding-right: calc((100% - 1440px)/2);
+  }
+}
