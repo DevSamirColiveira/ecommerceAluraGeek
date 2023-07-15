@@ -1,4 +1,54 @@
+/*Mobile*/
+@media screen and (min-width: 360px) {
 
+}
+
+@media screen and (min-width: 375px) {
+
+}
+
+/*Tablet*/
+@media screen and (min-width : 480px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+/*Desktop*/
+@media screen and (min-width: 900px) {
+  .logo__imagem {
+    padding-left: 215px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo__imagem {
+    padding-left: 200px;
+  }
+}
+
+@media screen and (min-width: 1156px) {
+  .logo__imagem {
+    padding-left: 215px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
 .logo__imagem {
-  width: 180px;
+    padding-left: 215px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .logo__imagem {
+    padding-left: 215px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .logo__imagem {
+    padding-left: 215px;
+  }
 }
