@@ -1,0 +1,12 @@
+
+.banner__titulo {
+  display: flex;
+  position: absolute;
+  color: var(--branco);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+
+  top: 22%;
+  left: 15%;
+}

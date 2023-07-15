@@ -1,0 +1,24 @@
+
+#divBusca{
+  display: flex;
+  background-color: var(--cor-do-Bg-cinza);
+  width: 25rem;
+  height: 2.5rem;
+  padding: 0.75rem;
+  border-radius: 100px;
+  margin-left: 1.875;
+}
+.busca {
+  background-color: var(--cor-do-Bg-cinza);
+  border: none;
+  height: 1rem;
+  width: 21.875rem;
+  color: var(--cor-do-texto);
+  font-size: 0.938rem;
+}
+#divBusca img {
+  display: flex;
+  width: 25px;
+  height: 22px;
+  margin: -3px 5px 5px 5px;
+}
