@@ -1,5 +1,57 @@
+/* Mobile - 360px */
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+  .divBanner {
+    display: flex;
+    background-image: url('../../img/banner/banner-geeky-shots.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 192px;
+    width: 100%;
+  }
+}
 
-.banner__imagem {
-  /* background-image: url('../img/banner/banner-image.png'); */
+/* Tablet - 768px */
+@media only screen and (min-width: 361px) and (max-width: 768px) { 
+  .divBanner {
+    background-image: url('../../img/banner/banner-geeky-shots.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: calc(60vh - 72px);
+    width: 100%;
+  }
+}
+
+/* Desktop 1024px e 1440px */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .divBanner {
+    background-image: url('../../img/banner/banner-geeky-shots.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: calc(60vh - 72px);
+    width: 100%;
+  } 
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1439px) {  .divBanner {
+  background-image: url('../../img/banner/banner-geeky-shots.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(60vh - 72px);
   width: 100%;
+}
+}
+
+@media only screen and (min-width: 1440px) {
+  .divBanner {
+    background-image: url('../../img/banner/banner-geeky-shots.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: calc(60vh - 72px);
+    width: 100%;
+  }
 }
