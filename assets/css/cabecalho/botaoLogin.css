@@ -1,11 +1,68 @@
+/* Mobile - 360px */
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+  .btnLogin {
+    margin: auto;
+    border: 1px solid var(--cor-da-Borda-SCD) ;
+    padding: 0.75rem 1rem;
+    width: 8.313rem;
+    text-align: center;
+    color: var(--cor-do-texto-SCD);
+    text-transform: capitalize;
+  }
+  .btnLogin {
+    order: -1;
+  }
+}
 
-.btnLogin {
-  /* display: flex; */
-  margin: auto;
-  border: 1px solid var(--cor-da-Borda-SCD) ;
-  padding: 16px;
-  width: 150px;
-  text-align: center;
-  color: var(--cor-do-texto-SCD);
-  text-transform: capitalize;
+/* Tablet - 768px */
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+  .btnLogin {
+    margin: auto;
+    border: 1px solid var(--cor-da-Borda-SCD) ;
+    padding: 0.75rem 1rem;
+    width: 9.063rem;
+    text-align: center;
+    color: var(--cor-do-texto-SCD);
+    text-transform: capitalize;
+    margin-right: 2rem;
+  }
+}
+/* Desktop 1024px e 1440px */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .btnLogin {
+    margin: auto;
+    border: 1px solid var(--cor-da-Borda-SCD) ;
+    padding: 0.75rem 1rem;
+    width: 9.25rem;
+    text-align: center;
+    color: var(--cor-do-texto-SCD);
+    text-transform: capitalize;
+    margin-right: 3.125rem;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1439px) {
+  .btnLogin {
+    margin: auto;
+    border: 1px solid var(--cor-da-Borda-SCD) ;
+    padding: 1rem;
+    width: 9.375rem;
+    text-align: center;
+    color: var(--cor-do-texto-SCD);
+    text-transform: capitalize;
+    margin-right: 5.625rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .btnLogin {
+    margin: auto;
+    border: 1px solid var(--cor-da-Borda-SCD) ;
+    padding: 1rem;
+    width: 9.688rem;
+    text-align: center;
+    color: var(--cor-do-texto-SCD);
+    text-transform: capitalize;
+    margin-right: 6.25rem;
+  }
 }

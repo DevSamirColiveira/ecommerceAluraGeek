@@ -73,8 +73,8 @@ body {
 
 @media only screen and (min-width: 1280px) {
   .container {
-      padding-left: calc((100% - 1440px)/2);
-      padding-right: calc((100% - 1440px)/2);
+    padding-left: calc((100% - 1440px)/2);
+    padding-right: calc((100% - 1440px)/2);
   }
 }
 
@@ -83,7 +83,7 @@ body {
   .container {
     padding-left: calc((100% - 1440px)/2);
     padding-right: calc((100% - 1440px)/2);
-}
+  }
 }
 
 /* Tablet - 768px */
@@ -91,7 +91,7 @@ body {
   .container {
     padding-left: calc((100% - 1440px)/2);
     padding-right: calc((100% - 1440px)/2);
-}
+  }
 }
 
 /* Desktop 1024px e 1440px */
@@ -99,14 +99,14 @@ body {
   .container {
     padding-left: calc((100% - 1440px)/2);
     padding-right: calc((100% - 1440px)/2);
-}
+  }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1439px) {
   .container {
     padding-left: calc((100% - 1440px)/2);
     padding-right: calc((100% - 1440px)/2);
-}
+  }
 }
 
 @media only screen and (min-width: 1440px) {

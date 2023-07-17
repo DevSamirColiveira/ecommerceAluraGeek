@@ -1,0 +1,115 @@
+/* Mobile - 360px */
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+  #divBusca input{
+    display: none;
+  }
+  .pesquisa__imagem {
+    margin-right: 1rem;
+  }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+  #divBusca{
+    display: flex;
+    background-color: var(--cor-do-Bg-cinza);
+    width: 21rem;
+    height: 2.5rem;
+    padding: 0.75rem;
+    border-radius: 6.25rem;
+    margin-left: 1rem;
+  }
+  .busca {
+    background-color: var(--cor-do-Bg-cinza);
+    border: none;
+    height: 1rem;
+    width: 21.875rem;
+    color: var(--cor-do-texto);
+    font-size: 0.938rem;
+  }
+  #divBusca img {
+    display: flex;
+    width: 1.563rem;
+    height: 1.375rem;
+    margin: -0.188rem 0.313rem;
+  }
+}
+
+/* Desktop 1024px e 1440px */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #divBusca{
+    display: flex;
+    background-color: var(--cor-do-Bg-cinza);
+    width: 25rem;
+    height: 2.5rem;
+    padding: 0.75rem;
+    border-radius: 6.25rem;
+    margin-left: 5rem;
+  }
+  .busca {
+    background-color: var(--cor-do-Bg-cinza);
+    border: none;
+    height: 1rem;
+    width: 21.875rem;
+    color: var(--cor-do-texto);
+    font-size: 0.938rem;
+  }
+  #divBusca img {
+    display: flex;
+    width: 1.563rem;
+    height: 1.375rem;
+    margin: -0.188rem 0.313rem;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1439px) {
+  #divBusca{
+    display: flex;
+    background-color: var(--cor-do-Bg-cinza);
+    width: 28rem;
+    height: 2.5rem;
+    padding: 0.75rem;
+    border-radius: 100px;
+    margin-left: 5rem;
+  }
+  .busca {
+    background-color: var(--cor-do-Bg-cinza);
+    border: none;
+    height: 1rem;
+    width: 51rem;
+    color: var(--cor-do-texto);
+    font-size: 0.938rem;
+  }
+  #divBusca img {
+    display: flex;
+    width: 4.063rem;
+    height: 1.375rem;
+    margin: -0.188rem 0.313rem 0 0.313rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  #divBusca{
+    display: flex;
+    background-color: var(--cor-do-Bg-cinza);
+    width: 38rem;
+    height: 2.5rem;
+    padding: 0.75rem;
+    border-radius: 6.25rem;
+    margin-left: 4.688rem;
+  }
+  .busca {
+    background-color: var(--cor-do-Bg-cinza);
+    border: none;
+    height: 1rem;
+    width: 51rem;
+    color: var(--cor-do-texto);
+    font-size: 0.938rem;
+  }
+  #divBusca img {
+    display: flex;
+    width: 2.5rem;
+    height: 1.375rem;
+    margin: -0.188rem 0.313rem 0 0.313rem;
+  }
+}

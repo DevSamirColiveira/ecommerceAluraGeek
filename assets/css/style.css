@@ -1,15 +1,24 @@
+/* Mobile - 360px */
+@media only screen and (min-width: 280px) and (max-width: 360px) {
 
-
-@media screen and (min-width: 768px) {
-  .log {
-    height: 60px;
-  }
 }
 
-@media screen and (min-width: 1280px) {
-  .log {
-    height: 50px;
-  }
+/* Tablet - 768px */
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+
+}
+
+/* Desktop 1024px e 1440px */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1439px) {
+
+}
+
+@media only screen and (min-width: 1440px) {
+
 }
 
 .produto {
