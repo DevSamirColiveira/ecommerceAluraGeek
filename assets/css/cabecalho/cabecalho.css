@@ -34,15 +34,11 @@
 @media only screen and (min-width: 1025px) and (max-width: 1439px) {
   .cabecalho {
     height: 7.188rem;
-    margin: 0 auto;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .cabecalho {
     height: 7.188rem;
-    gap: 3.75rem;
-    padding: 2rem 2rem 2rem 12.5rem;
-    margin: 0 auto;
   }
 }

@@ -25,8 +25,7 @@
   }
 }
 
-/* Tablet - 768px */
-@media only screen and (min-width: 481px) and (max-width: 768px) { 
+@media only screen and (min-width: 481px) and (max-width: 1439px) { 
   .divBanner {
     display: flex;
     flex-flow: column-reverse;
@@ -34,34 +33,7 @@
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
-    height: 22rem;
-    width: 100%;
-  }
-}
-
-/* Desktop 1024px e 1440px */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .divBanner {
-    display: flex;
-    flex-flow: column-reverse;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.00) 41.15%, rgba(0, 0, 0, 0.80) 100%), url('../../img/banner/banner-geeky-shots.jpg'), lightgray 50%;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: cover;
-    height: 22rem;
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1439px) {
-  .divBanner {
-    display: flex;
-    flex-flow: column-reverse;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.00) 41.15%, rgba(0, 0, 0, 0.80) 100%), url('../../img/banner/banner-geeky-shots.jpg'), lightgray 50%;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: cover;
-    height: 22rem;
+    height: 22.5rem;
     width: 100%;
   }
 }
@@ -74,7 +46,7 @@
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
-    height: 360px;
+    height: 22.5rem;
     width: 100%;
   }
 }

@@ -5,13 +5,13 @@
 @media only screen and (min-width: 481px) and (max-width: 1439px) {
   .banner {
     position: relative;
-    height: 22rem;
+    height: 22.5rem;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .banner {
     position: relative;
-    height: 22rem;
+    height: 22.5rem;
   }
 }

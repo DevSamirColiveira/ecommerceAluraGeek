@@ -52,6 +52,9 @@
   /* Background */
 	--cor-do-Bg-azul:        #EAF2FD;
   --cor-do-Bg-cinza:       #F5F5F5;
+
+  /* Tamanho */
+  --max-width: calc(1136px + 64px);
 }	
 
 *,
@@ -71,44 +74,9 @@ body {
   padding-left: 6%;
 }
 
-@media only screen and (min-width: 1280px) {
-  .container {
-    padding-left: calc((100% - 1440px)/2);
-    padding-right: calc((100% - 1440px)/2);
-  }
-}
-
-/* Mobile - 360px */
-@media only screen and (min-width: 280px) and (max-width: 360px) {
-  .container {
-    padding-left: calc((100% - 1440px)/2);
-    padding-right: calc((100% - 1440px)/2);
-  }
-}
-
-/* Tablet - 768px */
-@media only screen and (min-width: 361px) and (max-width: 768px) {
-  .container {
-    padding-left: calc((100% - 1440px)/2);
-    padding-right: calc((100% - 1440px)/2);
-  }
-}
-
-/* Desktop 1024px e 1440px */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .container {
-    padding-left: calc((100% - 1440px)/2);
-    padding-right: calc((100% - 1440px)/2);
-  }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1439px) {
-  .container {
-    padding-left: calc((100% - 1440px)/2);
-    padding-right: calc((100% - 1440px)/2);
-  }
-}
-
 @media only screen and (min-width: 1440px) {
-  
+  .container {
+    padding-left: calc((100% - 1200px)/2);
+    padding-right: calc((100% - 1200px)/2);
+  }
 }
