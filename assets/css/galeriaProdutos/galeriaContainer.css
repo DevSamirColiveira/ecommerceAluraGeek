@@ -1,0 +1,81 @@
+.galeria__container {
+  background-color: var(--cor-do-Bg-cinza);
+  display: flex;
+}
+
+.titulo__galeria {
+  margin-bottom: 64px;
+}
+.titulo__galeria h3 {
+  color: var(--cor-do-texto);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Mobile - 360px */
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+  .titulo__galeria {
+
+  }
+  .titulo__galeria h3 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .titulo__galeria {
+
+  }
+  .titulo__galeria h3 {
+    font-size: 22px;
+  }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .titulo__galeria {
+
+  }
+  .titulo__galeria h3 {
+    font-size: 22px;
+  }
+}
+
+/* Desktop 1024px e 1440px */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .titulo__galeria {
+
+  }
+  .titulo__galeria h3 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .titulo__galeria {
+
+  }
+  .titulo__galeria h3 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1439px) {
+  .titulo__galeria {
+
+  }
+  .titulo__galeria h3 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .titulo__galeria {
+
+  }
+  .titulo__galeria h3 {
+  
+    font-size: 32px;
+  }
+}

@@ -1,18 +1,18 @@
+.cabecalho {
+  display: flex;
+  background-color: var(--branco);
+  align-items: center;
+}
+
 /* Mobile - 360px */
 @media only screen and (min-width: 280px) and (max-width: 360px) {
   .cabecalho {
-    display: flex;
-    background-color: var(--branco);
-    align-items: center;
     height: 4.688rem;
   }
 }
 
 @media only screen and (min-width: 361px) and (max-width: 480px) {
   .cabecalho {
-    display: flex;
-    background-color: var(--branco);
-    align-items: center;
     height: 4.688rem;
   }
 }
@@ -20,9 +20,6 @@
 /* Tablet - 768px */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .cabecalho {
-    display: flex;
-    background-color: var(--branco);
-    align-items: center;
     height: 5.938rem;
   }
 }
@@ -30,30 +27,19 @@
 /* Desktop 1024px e 1440px */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .cabecalho {
-    display: flex;
-    background-color: var(--branco);
-    align-items: center;
     height: 6.563rem;
   }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1439px) {
   .cabecalho {
-    background-color: var(--branco);
-    display: flex;
-    align-items: center;
     height: 7.188rem;
-    gap: 3.75rem;
-    padding: 2rem 2rem 2rem 12.5rem;
     margin: 0 auto;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .cabecalho {
-    background-color: var(--branco);
-    display: flex;
-    align-items: center;
     height: 7.188rem;
     gap: 3.75rem;
     padding: 2rem 2rem 2rem 12.5rem;

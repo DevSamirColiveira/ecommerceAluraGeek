@@ -9,16 +9,16 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 280px) and (max-width: 360px) {
   .banner__titulo {
-    bottom: 74px;
-    font-size: 22px;
+    bottom: 4.625rem;
+    font-size: 1.375rem;
     margin-left: 1rem;
   }
 }
 
 @media only screen and (min-width: 361px) and (max-width: 480px) {
   .banner__titulo {
-    bottom: 76px;
-    font-size: 22px;
+    bottom: 4.75rem;
+    font-size: 1.375rem;
     margin-left: 2rem;
   }
 }
@@ -26,8 +26,8 @@
 /* Tablet - 768px */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .banner__titulo {
-    bottom: 90px;
-    font-size: 50px;
+    bottom: 5.625rem;
+    font-size: 3.125rem;
     margin-left: 2rem;
   }
 }
@@ -35,24 +35,24 @@
 /* Desktop 1024px e 1440px */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .banner__titulo {
-    bottom: 99px;
-    font-size: 52px;
+    bottom: 6.188rem;
+    font-size: 3.25rem;
     margin-left: 3.125rem;
   }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1439px) {
   .banner__titulo {
-    bottom: 99px;
-    font-size: 53px;
+    bottom: 6.188rem;
+    font-size: 3.313rem;
     margin-left: 5.625rem;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .banner__titulo {
-    bottom: 99px;
-    font-size: 55px;
+    bottom: 6.188rem;
+    font-size: 3.438rem;
     margin-left: 6.25rem;
   }
 }

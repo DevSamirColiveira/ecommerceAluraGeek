@@ -9,20 +9,20 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 280px) and (max-width: 360px) {
   .banner__texto {
-    bottom: 64px;
-    font-size: 22px;
+    bottom: 4rem;
+    font-size: 1.375rem;
     margin-left: 1rem;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
   }
 }
 
 @media only screen and (min-width: 361px) and (max-width: 480px) {
   .banner__texto {
-    bottom: 68px;
-    font-size: 22px;
+    bottom: 4.25rem;
+    font-size: 1.375rem;
     margin-left: 2rem;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
   }
 }
@@ -30,8 +30,8 @@
 /* Tablet - 768px */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .banner__texto {
-    bottom: 88px;
-    font-size: 22px;
+    bottom: 5.5rem;
+    font-size: 1.375rem;
     margin-left: 2rem;
   }
 }
@@ -39,24 +39,24 @@
 /* Desktop 1024px e 1440px */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .banner__texto {
-    bottom: 99px;
-    font-size: 22px;
+    bottom: 6.188rem;
+    font-size: 1.375rem;
     margin-left: 3.125rem;
   }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1439px) {
   .banner__texto {
-    bottom: 99px;
-    font-size: 22px;
+    bottom: 6.188rem;
+    font-size: 1.375rem;
     margin-left: 5.625rem;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .banner__texto {
-    bottom: 99px;
-    font-size: 24px;
+    bottom: 6.188rem;
+    font-size: 1.5rem;
     margin-left: 6.25rem;
   }
 }
