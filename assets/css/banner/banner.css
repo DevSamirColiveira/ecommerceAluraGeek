@@ -2,12 +2,16 @@
 @media only screen and (min-width: 280px) and (max-width: 360px) {
   .banner {
     position: relative;
-    ;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .banner {
+    position: relative;
   }
 }
 
 /* Tablet - 768px */
-@media only screen and (min-width: 361px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .banner {
     position: relative;
     height: 352px;

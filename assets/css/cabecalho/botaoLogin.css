@@ -14,8 +14,23 @@
   }
 }
 
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .btnLogin {
+    margin: auto;
+    border: 1px solid var(--cor-da-Borda-SCD) ;
+    padding: 0.75rem 1rem;
+    width: 8.313rem;
+    text-align: center;
+    color: var(--cor-do-texto-SCD);
+    text-transform: capitalize;
+  }
+  .btnLogin {
+    order: -1;
+  }
+}
+
 /* Tablet - 768px */
-@media only screen and (min-width: 361px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .btnLogin {
     margin: auto;
     border: 1px solid var(--cor-da-Borda-SCD) ;
