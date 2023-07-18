@@ -2,32 +2,23 @@
   display: flex;
   background-color: var(--branco);
   align-items: center;
-}
-
-/* Mobile - 360px */
-@media only screen and (min-width: 280px) and (max-width: 360px) {
-  .cabecalho {
-    height: 4.688rem;
-  }
-}
-
-@media only screen and (min-width: 361px) and (max-width: 480px) {
-  .cabecalho {
-    height: 4.688rem;
-  }
+  height: 72px;
+  padding: 16px;
+  justify-content: space-between;
+  align-self: stretch;
 }
 
 /* Tablet - 768px */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .cabecalho {
-    height: 5.938rem;
+    padding: 16px 32px;
   }
 }
 
 /* Desktop 1024px e 1440px */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .cabecalho {
-    height: 6.563rem;
+    height: 105px;
   }
 }
 

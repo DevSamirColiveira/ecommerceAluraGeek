@@ -18,7 +18,7 @@
 
     <!-- cabecalho -->
     <link rel="stylesheet" href="./assets/css/cabecalho/botaoLogin.css">
-    <link rel="stylesheet" href="./assets/css/cabecalho/divBusca.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalhoPesquisar.css">
     <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
     <link rel="stylesheet" href="./assets/css/cabecalho/logo.css">
 
@@ -38,14 +38,33 @@
   <body>
 
     <header class="cabecalho container">
-      <a href="#" class="logo">
+      <div class="cabecalho__pesquisar">
+        <a href="#" class="logo">
+          <img src="./assets/img/cabecalho/logo.svg" alt="Logo do Site" class="logo__imagem">
+        </a>
+        <div class="cabecalho__pesquisarInput">
+          <input class="pesquisar"type="text" id="txtPesquisar" placeholder="O que deseja encontrar?" value="">
+          <button class="pesquisar__botao"></button>
+        </div>
+      </div>
+      <button class="pesquisar__botao"></button>
+
+      <!-- <img src="./assets/img/cabecalho/magnifyingGlass.svg" alt="Pesquisa" class="pesquisar__imagem"> -->
+
+      <div>
+        <a href="#" class="btnLogin">login</a>
+      </div>
+
+
+
+      <!-- <a href="#" class="logo">
         <img src="./assets/img/cabecalho/logo.svg" alt="Logo do Site" class="logo__imagem">
       </a>
       <div id="divBusca" >
         <input class="busca"type="text" id="txtBusca" placeholder="O que deseja encontrar?">
         <img src="./assets/img/cabecalho/magnifyingGlass.svg" alt="Pesquisa" class="pesquisa__imagem">
       </div>
-      <a href="#" class="btnLogin">login</a>
+      <a href="#" class="btnLogin">login</a> -->
     </header>
 
     <main class="containe">
