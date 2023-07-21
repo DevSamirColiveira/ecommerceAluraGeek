@@ -1,0 +1,152 @@
+{
+  "starWars": [
+    {
+      "id": 1,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-caneca-stormtrooper.svg?raw=true",
+      "alt": "Caneca do Stormtrooper",
+      "titulo": "Caneca Stormtrooper",
+      "preco": 100.00,
+      "quantidade": 11
+    },
+    {
+      "id": 2,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-capacete-darth-vader.svg?raw=true",
+      "alt": "Capacete do Darth Vader",
+      "titulo": "Capacete Darth Vader",
+      "preco": 99.00,
+      "quantidade": 12
+    },
+    {
+      "id": 3,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-wallpaper-yoda.svg?raw=true",
+      "alt": "Papel de Parede do Yoda",
+      "titulo": "Wallpaper do Yoda",
+      "preco": 90.00,
+      "quantidade": 13
+    },
+    {
+      "id": 4,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-wallpaer-stormtrooper.svg?raw=true",
+      "alt": "Wallpaer do Stormtrooper",
+      "titulo": "Wallpaer Stormtrooper",
+      "preco": 60.00,
+      "quantidade": 14
+    },
+    {
+      "id": 5,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-wallpaper-darth-vader.svg?raw=true",
+      "alt": "Wallpaper do Darth Vader",
+      "titulo": "Wallpaper Darth Vader",
+      "preco": 65.00,
+      "quantidade": 15
+    },
+    {
+      "id": 6,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-baby-yoda.svg?raw=true",
+      "alt": "Boneco do Bebê Yoda",
+      "titulo": "Boneco Baby Yoda",
+      "preco": 99.00,
+      "quantidade": 16
+    }
+  ],
+  "consoles": [
+    {
+      "id": 31,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-controle-xbox.svg?raw=true",
+      "alt": "Controle Xbox Robot",
+      "titulo": "Controle Xbox - Robot",
+      "preco": 390.00,
+      "quantidade": 11
+    },
+    {
+      "id": 32,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-game-boy.svg?raw=true",
+      "alt": "Game Boy",
+      "titulo": "Game Boy RG35XX",
+      "preco": 310.00,
+      "quantidade": 16
+    },
+    {
+      "id": 33,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-microsoft-xbox-x.svg?raw=true",
+      "alt": "Microsoft Xbox Series X",
+      "titulo": "Microsoft Xbox Series X",
+      "preco": 42990.00,
+      "quantidade": 11
+    },
+    {
+      "id": 34,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-nintendo-switch.svg?raw=true",
+      "alt": "Nintendo Switch RED",
+      "titulo": "Nintendo Switch RED V2",
+      "preco": 2175.00,
+      "quantidade": 11
+    },
+    {
+      "id": 35,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-playstation-5.svg?raw=true",
+      "alt": "playstation 5 blu edition",
+      "titulo": "playstation 5 blu edition",
+      "preco": 4004.00,
+      "quantidade": 11
+    },
+    {
+      "id": 36,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-nintendo-system.svg?raw=true",
+      "alt": "Nintendo E. System",
+      "titulo": "Nintendo E. System",
+      "preco": 550.00,
+      "quantidade": 11
+    },
+  ],
+  "diversos": [
+    {
+      "id": 71,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-boneco-do-sonic.svg?raw=true",
+      "alt": "boneco do sonic",
+      "titulo": "boneco do sonic",
+      "preco": 611.00,
+      "quantidade": 11
+    },
+    {
+      "id": 72,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-oculos-box2-0-realidade.svg?raw=true",
+      "alt": "oculos box de realidade",
+      "titulo": "oculos box 2.0 realidade",
+      "preco": 3452.00,
+      "quantidade": 11
+    },
+    {
+      "id": 73,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-pelucia-do-pikachu.svg?raw=true",
+      "alt": "Pokemon Pelucia do Pikachu",
+      "titulo": "Pokemon Pelucia Pikachu",
+      "preco": 121.00,
+      "quantidade": 11
+    },
+    {
+      "id": 74,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-wallpaer-atari.svg?raw=true",
+      "alt": "wallpaer do atari",
+      "titulo": "wallpaer do atari",
+      "preco": 90.00,
+      "quantidade": 11
+    },
+    {
+      "id": 75,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-wallpaer-boy.svg?raw=true",
+      "alt": "wallpaper do boygame",
+      "titulo": "wallpaper do boyGame",
+      "preco": 67.00,
+      "quantidade": 11
+    },
+    {
+      "id": 76,
+      "imagem": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-wallpaer-radio-barbie.svg?raw=true",
+      "alt": "radio da barbie",
+      "titulo": "radio da barbie",
+      "preco": 2590.00,
+      "quantidade": 11
+    },
+  ]
+}

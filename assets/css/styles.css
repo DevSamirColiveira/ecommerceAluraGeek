@@ -1,0 +1,83 @@
+/* base */
+@import url(./resetEnormalize/reset.css);
+@import url(./resetEnormalize/normalize.css);
+@import url(./base.css);
+
+/* cabecalho */
+@import url(./cabecalho/cabecalho.css);
+@import url(./cabecalho/botaoLogin.css);
+@import url(./cabecalho/cabecalhoPesquisar.css);
+@import url(./cabecalho/logo.css);
+
+/* banner */
+@import url(./banner/banner.css);
+@import url(./banner/bannerBotao.css);
+@import url(./banner/bannerTexto.css);
+@import url(./banner/bannerTitulo.css);
+@import url(./banner/divBanner.css);
+
+/* galeria de produtos */
+@import url(./galeriaProdutos/galeriaContainer.css);
+@import url(./galeriaProdutos/galeriaProduto.css);
+@import url(./galeriaProdutos/tituloGaleria.css);
+
+/* rodape */
+
+
+.rodape_container {
+  background-color: var(--cor-do-Bg-azul);
+}
+
+.rodape_innerContainer {
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 64px 32px
+}
+.logo__rodapeNav {
+  display: flex;
+  flex: 1 1;
+  flex-wrap: wrap;
+  gap: 16px 112px;
+  min-width: 254px
+}
+
+.nav__rodape ul {
+  list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px
+}
+.nav__rodape a {
+  font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-do-texto)
+}
+.rodape__form {
+  display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 560px
+}
+.rodape__textarea{
+  height: 82px
+}
+/*
+
+.rodape__formInput
+.textarea__custom
+.botao__submit
+*/
+.rodape__devel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0
+}
+.rodape__devel  span {
+  font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-do-texto)
+}
