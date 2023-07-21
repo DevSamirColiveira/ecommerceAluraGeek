@@ -64,9 +64,112 @@
 .rodape__textarea{
   height: 82px
 }
-/*
 
-.rodape__formInput
+.rodape__formInput {
+  position: relative;
+  width: 100%
+}
+
+.rodape__formInput label {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  pointer-events: none;
+  transition: opacity,top,color,font-size,.15s;
+  color: var(--cor-do-texto-busca)
+}
+
+.rodape__formInput input {
+  padding: 28px 12px 7px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  width: 100%;
+  color: var(--cor-do-texto);
+  caret-color: var(--cor-do-texto-SCM);
+  border-bottom: 1px solid var(--cor-do-texto-busca);
+  height: 53px
+}
+
+.rodape__formInput input:focus {
+  outline: none;
+  box-shadow: none;
+  padding-bottom: .375rem;
+  border-bottom: 2px solid var(--cor-do-texto-SCM)
+}
+
+.rodape__formInput input:focus+label,.rodape__formInput input:not(:placeholder-shown)+label {
+  font-size: .75rem;
+  top: 8px
+}
+
+.rodape__formInput input:focus+label {
+  color: var(--cor-do-texto-SCM)
+}
+
+.rodape__formInput input::placeholder {
+  opacity: 0;
+  color: var(--cor-do-texto-busca)
+}
+
+.textarea__custom {
+  position: relative;
+  width: 100%
+}
+
+.textarea__custom label {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  pointer-events: none;
+  transition: opacity,top,color,font-size,.15s;
+  color: var(--cor-do-texto-busca)
+}
+
+.textarea__custom textarea {
+  padding: 28px 12px 7px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  width: 100%;
+  color: var(--cor-do-texto);
+  caret-color: var(--cor-do-Bg-PCD);
+  border-bottom: 1px solid var(--cor-do-texto-busca);
+  resize: none;
+  flex-grow: 1;
+  overflow: hidden
+}
+
+.textarea__custom textarea:focus {
+  outline: none;
+  box-shadow: none;
+  padding-bottom: .375rem;
+  border-bottom: 2px solid var(--cor-do-Bg-PCD)
+}
+
+.textarea__custom textarea:focus+label,.textarea__custom textarea:not(:placeholder-shown)+label {
+  font-size: .75rem;
+  top: 8px
+}
+
+.textarea__custom textarea:focus+label {
+  color: var(--cor-do-Bg-PCD)
+}
+
+.textarea__custom textarea::placeholder {
+  opacity: 0;
+  color: var(--cor-do-texto-busca)
+}
+
+.rodape__error {
+  height: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--cor-do-erro)
+}
+/*
 .textarea__custom
 .botao__submit
 */
