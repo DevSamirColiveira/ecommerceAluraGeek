@@ -24,17 +24,17 @@
 /* rodape */
 
 
-.rodape_container {
+.rodape__container {
   background-color: var(--cor-do-Bg-azul);
 }
 
-.rodape_innerContainer {
+.rodape__innerContainer {
   display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 64px 32px
+  justify-content: space-between;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 64px 32px
 }
 .logo__rodapeNav {
   display: flex;
@@ -44,22 +44,29 @@
   min-width: 254px
 }
 
+
 .nav__rodape ul {
   list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 24px
+  display: flex;
+  flex-direction: column;
+  gap: 24px
 }
 .nav__rodape a {
   font-size: 16px;
-    font-weight: 500;
-    color: var(--cor-do-texto)
+  font-weight: 500;
+  color: var(--cor-do-texto)
 }
+.nav__rodape a:hover {
+  text-decoration: underline;
+}
+
+
+
 .rodape__form {
   display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 560px
+  flex-direction: column;
+  gap: 8px;
+  width: 560px
 }
 .rodape__textarea{
   height: 82px
@@ -98,7 +105,8 @@
   border-bottom: 2px solid var(--cor-do-texto-SCM)
 }
 
-.rodape__formInput input:focus+label,.rodape__formInput input:not(:placeholder-shown)+label {
+.rodape__formInput input:focus+label,
+.rodape__formInput input:not(:placeholder-shown)+label {
   font-size: .75rem;
   top: 8px
 }
@@ -147,7 +155,8 @@
   border-bottom: 2px solid var(--cor-do-Bg-PCD)
 }
 
-.textarea__custom textarea:focus+label,.textarea__custom textarea:not(:placeholder-shown)+label {
+.textarea__custom textarea:focus+label,
+.textarea__custom textarea:not(:placeholder-shown)+label {
   font-size: .75rem;
   top: 8px
 }
@@ -169,10 +178,7 @@
   font-weight: 500;
   color: var(--cor-do-erro)
 }
-/*
-.textarea__custom
-.botao__submit
-*/
+
 .rodape__devel {
   display: flex;
   flex-direction: column;
@@ -183,4 +189,46 @@
   font-size: 16px;
     font-weight: 500;
     color: var(--cor-do-texto)
+}
+
+.botao__submit {
+  display: flex;
+padding: 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+background-color: var(--cor-do-Bg-PCD);
+}
+.botao__btn {
+  width: 170px;
+  margin-left: 390px;
+  border: none;
+  color: var(--branco);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border: 1px solid var(--cor-do-Bg-PCD);
+}
+/* .botao__btn:hover {
+  background-color: var(--cor-do-Bg-SHD);
+  border: 1px solid var(--cor-do-Bg-PCD);
+  color: var(--cor-do-texto-SHD);
+  cursor: pointer
+
+} */
+.botao__btn:hover {
+  background-color: var(--cor-do-Bg-SHD);
+  border: 1px solid var(--cor-do-titulo);
+  color: var(--cor-do-titulo);
+  cursor: pointer
+
+}
+.logo__rodape {
+  display: flex;
+width: 176px;
+height: 50px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
 }

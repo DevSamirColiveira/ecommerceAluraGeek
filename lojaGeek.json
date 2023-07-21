@@ -97,7 +97,7 @@
       "titulo": "Nintendo E. System",
       "preco": 550.00,
       "quantidade": 11
-    },
+    }
   ],
   "diversos": [
     {
@@ -147,6 +147,6 @@
       "titulo": "radio da barbie",
       "preco": 2590.00,
       "quantidade": 11
-    },
+    }
   ]
 }
