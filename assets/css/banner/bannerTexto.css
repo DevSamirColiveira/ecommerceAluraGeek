@@ -1,19 +1,19 @@
 .banner__texto {
-  position: absolute;
   color: var(--branco);
   font-style: normal;
   font-weight: 700;
+  position: absolute;
   transition: 1s .2s;
 }
 
-/* Mobile - 360px */
+/* Mobile */
 @media only screen and (min-width: 280px) and (max-width: 360px) {
   .banner__texto {
     bottom: 4rem;
     font-size: 1.375rem;
-    margin-left: 1rem;
     font-size: 0.875rem;
     font-weight: 600;
+    margin-left: 1rem;
   }
 }
 
@@ -21,13 +21,13 @@
   .banner__texto {
     bottom: 4.25rem;
     font-size: 1.375rem;
-    margin-left: 2rem;
     font-size: 0.875rem;
     font-weight: 600;
+    margin-left: 2rem;
   }
 }
 
-/* Tablet - 768px */
+/* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .banner__texto {
     bottom: 5.5rem;
@@ -36,7 +36,7 @@
   }
 }
 
-/* Desktop 1024px e 1440px */
+/* Desktop */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .banner__texto {
     bottom: 6.188rem;

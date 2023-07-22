@@ -1,12 +1,13 @@
 .banner__titulo {
-  display: flex;
-  position: absolute;
   color: var(--branco);
+  display: flex;
   font-style: normal;
   font-weight: 700;
+  position: absolute;
   transition: 1s .2s;
 }
-/* Mobile - 360px */
+
+/* Mobile */
 @media only screen and (min-width: 280px) and (max-width: 360px) {
   .banner__titulo {
     bottom: 4.625rem;
@@ -23,7 +24,7 @@
   }
 }
 
-/* Tablet - 768px */
+/* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .banner__titulo {
     bottom: 5.625rem;
@@ -32,7 +33,7 @@
   }
 }
 
-/* Desktop 1024px e 1440px */
+/* Desktop */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .banner__titulo {
     bottom: 6.188rem;

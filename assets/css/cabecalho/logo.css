@@ -4,7 +4,7 @@
   justify-content: center;
 }
 
-/* Mobile - 360px */
+/* Mobile */
 @media only screen and (min-width: 280px) and (max-width: 360px) {
   .logo__imagem {
     width: 7.5rem;
@@ -18,7 +18,7 @@
   }
 }
 
-/* Tablet - 768px */
+/* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .logo__imagem {
     /* margin-left: 2rem; */
@@ -26,7 +26,7 @@
   }
 }
 
-/* Desktop 1024px e 1440px */
+/* Desktop */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .logo__imagem {
     margin-left: 3.125rem;

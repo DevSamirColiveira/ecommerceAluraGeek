@@ -1,0 +1,115 @@
+.rodape__container {
+  background-color: var(--cor-do-Bg-azul);
+}
+.logo__rodape {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 50px;
+  justify-content: center;
+  width: 176px;
+}
+.nav__rodape a {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--cor-do-texto);
+}
+
+
+/* Mobile */
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+  .rodape__container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .rodape__nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    min-width: 360px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav__rodape ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+}
+
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .rodape__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .rodape__nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    min-width: 360px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav__rodape ul {
+    gap: 16px;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  
+}
+
+/* Desktop */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1439px) {
+  
+
+  .rodape__innerContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 64px 32px;
+    width: 100%;
+  }
+  .rodape__nav {
+    display: flex;
+    flex: 1 1;
+    flex-wrap: wrap;
+    gap: 16px 112px;
+    min-width: 254px;
+  }
+
+  .nav__rodape ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .nav__rodape a {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-do-texto);
+  }
+  .nav__rodape a:hover {
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  
+}

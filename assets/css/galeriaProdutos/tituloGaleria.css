@@ -1,3 +1,4 @@
+/* Mobile - 360px */
 .titulo__galeria {
   align-items: center;
   display: flex;
@@ -21,21 +22,8 @@
   justify-content: center;
 }
 
-/* Mobile - 360px */
-@media only screen and (min-width: 280px) and (max-width: 360px) {
 
-}
-
-@media only screen and (min-width: 361px) and (max-width: 480px) {
-
-}
-
-/* Tablet - 768px */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-
-}
-
-/* Desktop 1024px e 1440px */
+/* Desktop */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .titulo__galeria h3 {
     font-size: 32px;

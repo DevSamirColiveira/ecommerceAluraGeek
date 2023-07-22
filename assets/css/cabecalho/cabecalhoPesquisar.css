@@ -1,23 +1,23 @@
 .cabecalho__pesquisar {
-  display: flex;
   align-items: center;
+  display: flex;
   /* gap: 32px; */
 }
 .pesquisar__botao {
-  background-image: url(../../img/cabecalho/magnifyingGlass.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  border: none;
   background-color: transparent;
-  padding: 15px 15px;
+  background-image: url(../../img/cabecalho/magnifyingGlass.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
   cursor: pointer;
+  padding: 15px 15px;
 }
 :focus {
   outline: none;
   /* box-shadow: 0 0 2px var(--cor-do-titulo); */
 }
 
-/* Mobile - 360px */
+/* Mobile */
 @media only screen and (min-width: 280px) and (max-width: 360px) {
   .cabecalho__pesquisarInput input {
     display: none;
@@ -27,8 +27,8 @@
   }
   .pesquisar__botao {
     cursor: default;
-    order: 1;
     margin-right: -7px;
+    order: 1;
   }
 }
 
@@ -45,64 +45,64 @@
   }
 }
 
-/* Tablet - 768px */
+/* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .cabecalho__pesquisar {
     gap: 32px;
   }
   .cabecalho__pesquisarInput {
-    background-color: var(--cor-do-Bg-cinza);
-    display: flex;
-    width: 272px;
-    border-radius: 20px;
-    padding: 8px 16px;
     align-items: center;
+    background-color: var(--cor-do-Bg-cinza);
+    border-radius: 20px;
+    display: flex;
     gap: 8px;
+    padding: 8px 16px;
+    width: 272px;
 
   }
   .cabecalho__pesquisarInput button {
     display: block;
   }
   .pesquisar__botao {
-    display: none;
     cursor: default;
+    display: none;
   }
   .pesquisar {
+    background-color: transparent;
     border: none;
-    width: 208px;
     color: var(--cor-do-texto);
     font-size: 15px;
-    background-color: transparent;
+    width: 208px;
   }
 }
 
-/* Desktop 1024px e 1440px */
+/* Desktop */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .cabecalho__pesquisar {
     gap: 32px;
   }
   .cabecalho__pesquisarInput {
-    background-color: var(--cor-do-Bg-cinza);
-    display: flex;
-    width: 272px;
-    border-radius: 20px;
-    padding: 8px 16px;
     align-items: center;
+    background-color: var(--cor-do-Bg-cinza);
+    border-radius: 20px;
+    display: flex;
     gap: 8px;
+    padding: 8px 16px;
+    width: 272px;
   }
   .cabecalho__pesquisarInput button {
     display: block;
   }
   .pesquisar__botao {
-    display: none;
     cursor: default;
+    display: none;
   }
   .pesquisar {
+    background-color: transparent;
     border: none;
-    width: 208px;
     color: var(--cor-do-texto);
     font-size: 15px;
-    background-color: transparent;
+    width: 208px;
   }
 }
 
@@ -111,27 +111,27 @@
     gap: 32px;
   }
   .cabecalho__pesquisarInput {
-    background-color: var(--cor-do-Bg-cinza);
-    display: flex;
-    width: 392px;
-    border-radius: 20px;
-    padding: 8px 16px;
     align-items: center;
+    background-color: var(--cor-do-Bg-cinza);
+    border-radius: 20px;
+    display: flex;
     gap: 10px;
+    padding: 8px 16px;
+    width: 392px;
   }
   .cabecalho__pesquisarInput button {
     display: block;
   }
   .pesquisar__botao {
-    display: none;
     cursor: default;
+    display: none;
   }
   .pesquisar {
+    background-color: transparent;
     border: none;
-    width: 322px;
     color: var(--cor-do-texto);
     font-size: 15px;
-    background-color: transparent;
+    width: 322px;
   }
 }
 
@@ -140,26 +140,26 @@
     gap: 32px;
   }
   .cabecalho__pesquisarInput {
-    background-color: var(--cor-do-Bg-cinza);
-    display: flex;
-    width: 392px;
-    border-radius: 20px;
-    padding: 8px 16px;
     align-items: center;
+    background-color: var(--cor-do-Bg-cinza);
+    border-radius: 20px;
+    display: flex;
     gap: 10px;
+    padding: 8px 16px;
+    width: 392px;
   }
   .cabecalho__pesquisarInput button {
     display: block;
   }
   .pesquisar__botao {
-    display: none;
     cursor: default;
+    display: none;
   }
   .pesquisar {
+    background-color: transparent;
     border: none;
-    width: 322px;
     color: var(--cor-do-texto);
     font-size: 15px;
-    background-color: transparent;
+    width: 322px;
   }
 }

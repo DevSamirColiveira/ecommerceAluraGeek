@@ -1,0 +1,21 @@
+.rodape__error {
+  align-items: center;
+  color: var(--cor-do-erro);
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  height: 16px;
+}
+
+.rodape__devel {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 0;
+}
+
+.rodape__devel  span {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--cor-do-texto);
+}

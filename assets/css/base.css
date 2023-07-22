@@ -13,34 +13,34 @@
   --cor-do-texto-PHD:    var(--branco);
 
   /* Hierarquia=Primário, Estado=Comum, Tamanho=Mobile */
-  --cor-do-Bg-PCM:        #2A7AE4;
+  --cor-do-Bg-PCM:        var(--cor-do-Bg-PCD);
   --cor-do-texto-PCM:     var(--branco);
   
   /* Hierarquia=Primário, Estado=Hover, Tamanho=Mobile */
-  --cor-do-Bg-PHM:        #5595E9;
+  --cor-do-Bg-PHM:        var(--cor-do-Bg-PHD);
   --cor-do-texto-PHM:     var(--branco);
   
   /* Hierarquia=Secundário, Estado=Comum, Tamanho=Desktop */
-  --cor-da-Borda-SCD:     #2A7AE4;
-  --cor-do-texto-SCD:     #2A7AE4;
+  --cor-da-Borda-SCD:     var(--cor-do-Bg-PCD);
+  --cor-do-texto-SCD:     var(--cor-do-Bg-PCD);
   
   /* Hierarquia=Secundário, Estado=Hover, Tamanho=Desktop */
   --cor-do-Bg-SHD:         #D4E4FA;
-  --cor-da-Borda-SHD:      #2A7AE4;
-  --cor-do-texto-SHD:      #2A7AE4;
+  --cor-da-Borda-SHD:      var(--cor-do-Bg-PCD);
+  --cor-do-texto-SHD:      var(--cor-do-Bg-PCD);
   
   /* Hierarquia=Secundário, Estado=Comum, Tamanho=Mobile */
-  --cor-da-Borda-SCM:      #2A7AE4;
-  --cor-do-texto-SCM:      #2A7AE4;
+  --cor-da-Borda-SCM:      var(--cor-do-Bg-PCD);
+  --cor-do-texto-SCM:      var(--cor-do-Bg-PCD);
   
   /* Hierarquia=Secundário, Estado=Hover, Tamanho=Mobile */
-  --cor-do-Bg-SHM:         #D4E4FA;
-  --cor-da-Borda-SHM:      #2A7AE4;
-  --cor-da-texto-SHM:      #2A7AE4;
+  --cor-do-Bg-SHM:         var(--cor-do-Bg-SHD);
+  --cor-da-Borda-SHM:      var(--cor-do-Bg-PCD);
+  --cor-da-texto-SHM:      var(--cor-do-Bg-PCD);
   
   /* Hierarquia=Login */
-  --cor-da-Borda-l:        #2A7AE4;
-  --cor-do-texto-l:        #2A7AE4;
+  --cor-da-Borda-l:        var(--cor-do-Bg-PCD);
+  --cor-do-texto-l:        var(--cor-do-Bg-PCD);
 
 	/* Font */
   --cor-do-erro:           #d42222;

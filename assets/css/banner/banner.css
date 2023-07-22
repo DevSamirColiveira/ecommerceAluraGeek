@@ -4,14 +4,14 @@
 
 @media only screen and (min-width: 481px) and (max-width: 1439px) {
   .banner {
-    position: relative;
     height: 22.5rem;
+    position: relative;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .banner {
-    position: relative;
     height: 22.5rem;
+    position: relative;
   }
 }

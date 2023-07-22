@@ -1,8 +1,8 @@
 .galeria__produtoLista {
-  margin-top: 16px;
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+  margin-top: 16px;
 }
 .galeria__produtoLista li{
   display: flex;
@@ -11,21 +11,21 @@
 }
 
 .imagem__produto {
-  width: 150px;
   height: 150px;
+  width: 150px;
 }
 .nome__produto {
   color: var(-cor-do-texto);
-  text-transform: capitalize;
   font-size: 14px;
   font-weight: 500;
+  text-transform: capitalize;
 }
 
 .preco__produto {
   color: var(-cor-do-texto);
-  text-transform: capitalize;
   font-size: 16px;
   font-weight: 700;
+  text-transform: capitalize;
 }
 
 .ver__produto {
@@ -38,39 +38,39 @@ font-weight: 700;
   text-decoration: underline;
 }
 
-/* Tablet - 768px */
+/* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .imagem__produto {
-    width: 176px;
     height: 176px;
+    width: 176px;
   }
 }
 
-/* Desktop 1024px e 1440px */
+/* Desktop */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .imagem__produto {
-    width: 176px;
     height: 176px;
+    width: 176px;
   }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
   .imagem__produto {
-    width: 176px;
     height: 176px;
+    width: 176px;
   }
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1439px) {
   .imagem__produto {
-    width: 176px;
     height: 176px;
+    width: 176px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .imagem__produto {
-    width: 176px;
     height: 176px;
+    width: 176px;
   }
 }

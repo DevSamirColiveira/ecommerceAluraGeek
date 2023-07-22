@@ -2,7 +2,7 @@ main {
   background-color: var(--cor-do-Bg-cinza);
 }
 
-/* Mobile - 360px */
+/* Mobile */
 @media only screen and (min-width: 280px) and (max-width: 360px) {
   .galeria__container {
     padding: 1rem;
@@ -15,14 +15,14 @@ main {
   }
 }
 
-/* Tablet - 768px */
+/* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .galeria__container {
     padding: 2rem;
   }
 }
 
-/* Desktop 1024px e 1440px */
+/* Desktop */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .galeria__container {
     max-width: var(--max-width);
