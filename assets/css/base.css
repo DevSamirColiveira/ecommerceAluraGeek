@@ -65,6 +65,7 @@
 }
 
 body {
+  background-color: var(--cor-do-Bg-cinza);
   font-family: 'Raleway', sans-serif;
   margin: 0 auto !important;
 }

@@ -1,45 +1,50 @@
+.botao__btn {
+  border: none;
+  color: var(--branco);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.botao__submit {
+  align-items: center;
+  background-color: var(--cor-do-Bg-PCD);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
 /* Mobile */
-@media only screen and (min-width: 280px) and (max-width: 360px) {
-  .rodape__form {
-
-    padding-top: 32px;
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  .botao__submit {
+    padding: 12px 16px;
   }
-}
-
-@media only screen and (min-width: 361px) and (max-width: 480px) {
   
-}
-
-/* Tablet */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  
+  .botao__btn {
+    margin: auto;
+    width: 151px;
+  }
 }
 
 /* Desktop */
 @media only screen and (min-width: 769px) and (max-width: 1439px) {
   .botao__submit {
-    align-items: center;
-    background-color: var(--cor-do-Bg-PCD);
-    display: flex;
-    gap: 10px;
-    justify-content: center;
     padding: 16px;
   }
   
   .botao__btn {
     border: 1px solid var(--cor-do-Bg-PCD);
-    border: none;
-    color: var(--branco);
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    /* margin-left: 390px; */
+    font-weight: 500;
+    margin: 0 0 0 auto;
     width: 170px;
+    transition: all .3s ease-in-out;
   }
   
   .botao__btn:hover {
     background-color: var(--cor-do-Bg-SHD);
     border: 1px solid var(--cor-do-titulo);
+    box-shadow:inset 0 0 0 1px var(--cor-do-titulo);
     color: var(--cor-do-titulo);
     cursor: pointer
   }
@@ -47,28 +52,22 @@
 
 @media only screen and (min-width: 1440px) {
   .botao__submit {
-    align-items: center;
-    background-color: var(--cor-do-Bg-PCD);
-    display: flex;
-    gap: 10px;
-    justify-content: center;
     padding: 16px;
   }
   
   .botao__btn {
     border: 1px solid var(--cor-do-Bg-PCD);
-    border: none;
-    color: var(--branco);
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    /* margin-left: 390px; */
+    font-weight: 500;
+    margin: 0 0 0 auto;
     width: 170px;
+    transition: all .3s ease-in-out;
   }
   
   .botao__btn:hover {
     background-color: var(--cor-do-Bg-SHD);
     border: 1px solid var(--cor-do-titulo);
+    box-shadow:inset 0 0 0 1px var(--cor-do-titulo);
     color: var(--cor-do-titulo);
     cursor: pointer
   }

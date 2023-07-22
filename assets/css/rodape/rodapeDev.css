@@ -9,6 +9,7 @@
 
 .rodape__devel {
   align-items: center;
+  background-color: var(--branco);
   display: flex;
   flex-direction: column;
   padding: 32px 0;

@@ -9,7 +9,7 @@
   justify-content: center;
   width: 176px;
 }
-.nav__rodape a {
+.rodape__nav a {
   font-size: 16px;
   font-weight: 500;
   color: var(--cor-do-texto);
@@ -23,16 +23,15 @@
     flex-direction: column;
     gap: 32px;
   }
-  .rodape__nav {
+  .rodape__div {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    min-width: 360px;
     justify-content: center;
     align-items: center;
   }
 
-  .nav__rodape ul {
+  .rodape__nav ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -46,17 +45,22 @@
   .rodape__container {
     display: flex;
     flex-direction: column;
+    gap: 32px;
   }
-  .rodape__nav {
+  .rodape__div {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 16px;
     min-width: 360px;
     justify-content: center;
     align-items: center;
   }
 
-  .nav__rodape ul {
+  .rodape__nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 16px;
   }
 }
@@ -76,8 +80,6 @@
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1439px) {
-  
-
   .rodape__innerContainer {
     display: flex;
     justify-content: space-between;
@@ -86,7 +88,7 @@
     padding: 64px 32px;
     width: 100%;
   }
-  .rodape__nav {
+  .rodape__div {
     display: flex;
     flex: 1 1;
     flex-wrap: wrap;
@@ -94,22 +96,51 @@
     min-width: 254px;
   }
 
-  .nav__rodape ul {
+  .rodape__nav ul {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 24px;
   }
-  .nav__rodape a {
+  .rodape__nav a {
     font-size: 16px;
     font-weight: 500;
     color: var(--cor-do-texto);
   }
-  .nav__rodape a:hover {
+  .rodape__nav a:hover {
     text-decoration: underline;
   }
 }
 
 @media only screen and (min-width: 1440px) {
-  
+  .rodape__innerContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 64px 32px;
+    width: 100%;
+  }
+  .rodape__div {
+    display: flex;
+    flex: 1 1;
+    flex-wrap: wrap;
+    gap: 16px 112px;
+    min-width: 254px;
+  }
+
+  .rodape__nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .rodape__nav a {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-do-texto);
+  }
+  .rodape__nav a:hover {
+    text-decoration: underline;
+  }
 }
