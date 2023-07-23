@@ -38,6 +38,11 @@ font-weight: 700;
   text-decoration: underline;
 }
 
+@media only screen and (min-width: 359px) and (max-width: 450px) {
+  .galeria__produtoLista {
+    gap: 11px;
+  }
+}
 /* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .imagem__produto {
