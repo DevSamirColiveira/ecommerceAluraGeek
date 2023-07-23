@@ -30,3 +30,8 @@
 @import url(./rodape/formulario/formInput.css);
 @import url(./rodape/formulario/formTextarea.css);
 @import url(./rodape/formulario/formButao.css);
+
+/* login formulario */
+@import url(./login/login.css);
+@import url(./login/loginForm.css);
+@import url(./login/loginInput.css);

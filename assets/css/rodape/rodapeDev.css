@@ -1,10 +1,18 @@
-.rodape__error {
+.erroR {
   align-items: center;
   color: var(--cor-do-erro);
   display: flex;
   font-size: 12px;
   font-weight: 500;
   height: 16px;
+}
+.erroL {
+  align-items: center;
+  color: var(--cor-do-erro);
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  height: 32px;
 }
 
 .rodape__devel {

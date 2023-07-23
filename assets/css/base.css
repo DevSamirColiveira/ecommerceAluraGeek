@@ -18,6 +18,7 @@
   
   /* Hierarquia=Primário, Estado=Hover, Tamanho=Mobile */
   --cor-do-Bg-PHM:        var(--cor-do-Bg-PHD);
+  --cor-do-Bg-2:          #5f9beb;
   --cor-do-texto-PHM:     var(--branco);
   
   /* Hierarquia=Secundário, Estado=Comum, Tamanho=Desktop */

@@ -31,7 +31,7 @@
 
 .textarea__custom textarea:focus {
   box-shadow: none;
-  border-bottom: 2px solid var(--cor-do-Bg-PCD);
+  border-bottom: 3px solid var(--cor-do-Bg-PCD);
   outline: none;
   padding-bottom: .375rem;
 }
@@ -99,7 +99,7 @@
   
   .textarea__custom textarea:focus {
     box-shadow: none;
-    border-bottom: 2px solid var(--cor-do-Bg-PCD);
+    border-bottom: 3px solid var(--cor-do-Bg-PCD);
     outline: none;
     padding-bottom: .375rem;
   }
@@ -153,7 +153,7 @@
   }
   .textarea__custom textarea:focus {
     box-shadow: none;
-    border-bottom: 2px solid var(--cor-do-Bg-PCD);
+    border-bottom: 3px solid var(--cor-do-Bg-PCD);
     outline: none;
     padding-bottom: .375rem;
   }

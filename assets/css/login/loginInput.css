@@ -1,13 +1,8 @@
-.rodape__form {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-.rodape__formInput {
+.login__input {
   position: relative;
   width: 100%;
 }
-.rodape__formInput label {
+.login__input label {
   color: var(--cor-do-texto-busca);
   left: 12px;
   position: absolute;
@@ -15,10 +10,9 @@
   top: 16px;
   transition: opacity,top,color,font-size,.15s;
 }
-.rodape__formInput input {
+.login__input input {
   border-radius: 4px;
   border: none;
-  border-bottom: 1px solid var(--cor-do-texto-busca);
   color: var(--cor-do-texto);
   caret-color: var(--cor-do-texto-SCM);
   font-size: 16px;
@@ -26,24 +20,24 @@
   height: 53px;
   width: 100%;
 }
-.rodape__formInput input:focus {
+.login__input input:focus {
   box-shadow: none;
   border-bottom: 3px solid var(--cor-do-texto-SCM);
   padding-bottom: .375rem;
   outline: none;
 }
 
-.rodape__formInput input:focus+label,
-.rodape__formInput input:not(:placeholder-shown)+label {
+.login__input input:focus+label,
+.login__input input:not(:placeholder-shown)+label {
   font-size: .75rem;
   top: 8px;
 }
 
-.rodape__formInput input:focus+label {
+.login__input input:focus+label {
   color: var(--cor-do-texto-SCM);
 }
 
-.rodape__formInput input::placeholder {
+.login__input input::placeholder {
   color: var(--cor-do-texto-busca);
   opacity: 0;
 }

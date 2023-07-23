@@ -1,0 +1,55 @@
+
+
+
+
+
+/* Mobile */
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  .login__pagForm {
+    width: 275px;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  
+}
+
+/* Desktop */
+@media only screen and (min-width: 769px) and (max-width: 1439px) {
+  .login__pagForm {
+    width: 432px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .login__pagForm strong {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 24.35px;
+  }
+  .botao__login {
+    padding: 20.5px 185.5px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .login__pagForm {
+    width: 432px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .login__pagForm strong {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 24.35px;
+  }
+  .botao__login {
+    padding: 20.5px 185.5px;
+    width: 100%;
+  }
+}
