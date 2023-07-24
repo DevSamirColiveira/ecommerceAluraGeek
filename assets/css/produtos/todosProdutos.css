@@ -1,0 +1,40 @@
+.galeria__todosProduto {
+  margin-top: 16px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 64px 16px;
+}
+
+.base__produto {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+.base__produto img {
+  object-fit: cover;
+}
+
+.nome__tProduto, span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.preco__tProduto {
+  font-size: 16px;
+  font-weight: 700;
+}
+.delete__produto {
+  right: 48px;
+    top: 8px;
+}
+.editar__produto {
+  right: 8px;
+  top: 8px;
+}
+.base__produto button {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

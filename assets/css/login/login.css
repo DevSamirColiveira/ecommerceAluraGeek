@@ -1,17 +1,36 @@
-@media only screen and (min-width: 280px) and (max-width: 768px) {
+.login__pag {
+  background-color: var(--cor-do-Bg-cinza);
+}
+
+@media only screen and (min-width: 280px) and (max-width: 470px) {
   .login__pag {
-    background-color: var(--cor-do-Bg-cinza);
     display: flex;
-    padding: 92px;
+    padding: 2.5rem;
   }
-  
+}
+
+@media only screen and (min-width: 479px) and (max-width: 680px) {
+  .login__pag {
+    padding: 3.75rem;
+  }
+}
+
+@media only screen and (min-width: 685px) and (max-width: 768px) {
+  .login__pag {
+    padding: 1.875rem;
+  }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1439px) {
-
   .login__pag {
-    background-color: var(--cor-do-Bg-cinza);
     display: flex;
-    padding: 92px;
+    padding: 5.625rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .login__pag {
+    display: flex;
+    padding: 5.9375rem;
   }
 }

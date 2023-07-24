@@ -35,3 +35,6 @@
 @import url(./login/login.css);
 @import url(./login/loginForm.css);
 @import url(./login/loginInput.css);
+
+/* todos produtos */
+@import url(./produtos/todosProdutos.css);

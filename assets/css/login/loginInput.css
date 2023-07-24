@@ -4,25 +4,25 @@
 }
 .login__input label {
   color: var(--cor-do-texto-busca);
-  left: 12px;
+  left: 0.75rem;
   position: absolute;
   pointer-events: none;
-  top: 16px;
+  top: 1rem;
   transition: opacity,top,color,font-size,.15s;
 }
 .login__input input {
-  border-radius: 4px;
+  border-radius: 0.25rem;
   border: none;
   color: var(--cor-do-texto);
   caret-color: var(--cor-do-texto-SCM);
-  font-size: 16px;
-  padding: 28px 12px 7px;
-  height: 53px;
+  font-size: 1rem;
+  padding: 1.75rem 0.75rem 0.4375rem;
+  height: 3.3125rem;
   width: 100%;
 }
 .login__input input:focus {
   box-shadow: none;
-  border-bottom: 3px solid var(--cor-do-texto-SCM);
+  border-bottom: 0.1875rem solid var(--cor-do-texto-SCM);
   padding-bottom: .375rem;
   outline: none;
 }
@@ -30,7 +30,7 @@
 .login__input input:focus+label,
 .login__input input:not(:placeholder-shown)+label {
   font-size: .75rem;
-  top: 8px;
+  top: 0.5rem;
 }
 
 .login__input input:focus+label {
@@ -40,33 +40,4 @@
 .login__input input::placeholder {
   color: var(--cor-do-texto-busca);
   opacity: 0;
-}
-
-/* Mobile */
-@media only screen and (min-width: 280px) and (max-width: 480px) {
-  .rodape__form {
-    padding: 32px 16px;
-  }
-}
-
-/* Tablet */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  .rodape__form {
-    padding: 32px 16px; /*ver ainda */
-  }
-}
-
-/* Desktop */
-@media only screen and (min-width: 769px) and (max-width: 1439px) {
-  .rodape__form {
-    padding: 32px 16px;
-    width: 560px;
-  }
-  
-}
-
-@media only screen and (min-width: 1440px) {
-  .rodape__form {
-    width: 560px;
-  }
 }

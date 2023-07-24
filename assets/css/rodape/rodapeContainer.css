@@ -6,10 +6,10 @@
   display: flex;
   flex-shrink: 0;
   justify-content: center;
-  width: 176px;
+  width: 11rem;
 }
 .rodape__nav a {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--cor-do-texto);
 }
@@ -19,12 +19,12 @@
   .rodape__container {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 2rem;
   }
   .rodape__div {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    /* gap: 16px; */
     justify-content: center;
     align-items: center;
   }
@@ -33,10 +33,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 24px;
+    gap: 1.5rem;
   }
   .logo__rodape {
-    height: 50px;
+    height: 3.125rem;
   }
 }
 
@@ -59,10 +59,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 1rem;
   }
   .logo__rodape {
-    height: 50px;
+    height: 3.125rem;
   }
 }
 
@@ -73,24 +73,24 @@
     justify-content: space-between;
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 32px 26px;
+    padding: 2rem 1.625rem;
     width: 100%;
   }
   .rodape__div {
     display: flex;
     flex: 1 1;
     flex-wrap: wrap;
-    gap: 16px 112px;
-    min-width: 254px;
+    /* gap: 16px 112px; */
+    min-width: 15.875rem;
   }
   .rodape__nav ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 1.5rem;
   }
   .rodape__nav a {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--cor-do-texto);
   }
@@ -105,16 +105,16 @@
     justify-content: space-between;
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 32px 26px;
+    padding: 2rem 1.625rem;
     width: 100%;
   }
   .rodape__div {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px ;
+    gap: 1rem ;
   }
   .rodape__form {
-    width: 367px;
+    width: 22.9375rem;
   }
   .rodape__nav a:hover {
     text-decoration: none;
@@ -127,19 +127,19 @@
     justify-content: space-between;
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 32px 16px;
+    padding: 2rem 1rem;
     width: 100%;
   }
   .rodape__div {
     display: flex;
     flex: 1 1;
     flex-wrap: wrap;
-    gap: 16px 112px;
-    min-width: 254px;
+    gap: 1rem 7rem;
+    min-width: 15.875rem;
   }
   .rodape__div {
-    gap: 16px 112px;
-    min-width: 200px;
+    gap: 1rem 7rem;
+    /* min-width: 12.5rem; */
     justify-content: center;
     align-items: center;
   }
@@ -149,7 +149,7 @@
 }
 
 /* Desktop */
-@media only screen and (min-width: 769px) and (max-width: 1439px) {
+@media only screen and (min-width: 769px) and (max-width: 11439px) {
   .rodape__innerContainer {
     display: flex;
     justify-content: space-between;
@@ -166,22 +166,40 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 1.5rem;
   }
   .rodape__nav a {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--cor-do-texto);
   }
 }
-
-@media only screen and (min-width: 1024px) and (max-width: 1180px) {
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
   .rodape__innerContainer {
     display: flex;
     justify-content: space-between;
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 64px 32px;
+    /* padding: 4rem 2rem; */
+    padding: 2rem 4.6875rem;
+    width: 100%;
+  }
+  .logo__rodape {
+    transform: rotate(0deg);
+  }
+  .rodape__nav a:hover {
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1180px) {
+  .rodape__innerContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    /* padding: 4rem 2rem; */
+    padding: 2rem 4.6875rem;
     width: 100%;
   }
   .logo__rodape {
@@ -198,12 +216,13 @@
     justify-content: space-between;
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 64px 32px;
+    /* padding: 4rem 2rem; */
+    padding: 2rem 4.6875rem;
     width: 100%;
   }
   .logo__rodape {
     transform: rotate(-90deg);
-    width: 250px;
+    width: 15.625rem;
   }
   .rodape__nav a:hover {
     text-decoration: underline;
@@ -216,7 +235,8 @@
     justify-content: space-between;
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 64px 32px;
+    /* padding: 4rem 2rem; */
+    padding: 2rem 4.6875rem;
     width: 100%;
   }
   .rodape__div {
@@ -228,10 +248,10 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 1.5rem;
   }
   .rodape__nav a {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--cor-do-texto);
   }
@@ -240,6 +260,6 @@
   }
   .logo__rodape {
     transform: rotate(-90deg);
-    width: 250px;
+    width: 15.625rem;
   }
 }

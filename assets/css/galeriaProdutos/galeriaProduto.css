@@ -1,90 +1,68 @@
 .galeria__produtoLista {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
-  margin-top: 16px;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 .Oproduto {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .imagem__produto {
-  height: 150px;
-  width: 150px;
+  height: 9.375rem;
+  width: 9.375rem;
 }
 .nome__produto {
   color: var(-cor-do-texto);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   text-transform: capitalize;
 }
 
 .preco__produto {
   color: var(-cor-do-texto);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   text-transform: capitalize;
 }
 
 .carrinho__produto {
   border: 1px solid var(--cor-do-comprar);
-  border-radius: 10px;
+  border-radius: 0.625rem;
   color: var(--cor-do-comprar);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
-  height: 25px;
+  height: 1.5625rem;
   margin: 0 0 0 auto;
-  padding: 3px;
+  padding: 0.1875rem;
   text-align: center;
-  width: 100px;
+  width: 6.25rem;
 }
 .carrinho__produto:hover {
   border: 1px solid var(--cor-do-comprar);
-  border-radius: 10px;
+  border-radius: 0.625rem;
   color: var(--branco);
   background-color: var(--cor-do-comprar);
 }
 
 @media only screen and (min-width: 359px) and (max-width: 450px) {
   .galeria__produtoLista {
-    gap: 11px;
-  }
-}
-/* Tablet */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  .imagem__produto {
-    height: 176px;
-    width: 176px;
+    gap: 0.6875rem;
   }
 }
 
-/* Desktop */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 481px) and (max-width: 1439px) {
   .imagem__produto {
-    height: 176px;
-    width: 176px;
-  }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1200px) {
-  .imagem__produto {
-    height: 176px;
-    width: 176px;
-  }
-}
-
-@media only screen and (min-width: 1201px) and (max-width: 1439px) {
-  .imagem__produto {
-    height: 176px;
-    width: 176px;
+    height: 11rem;
+    width: 11rem;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .imagem__produto {
-    height: 176px;
-    width: 176px;
+    height: 11rem;
+    width: 11rem;
   }
 }
