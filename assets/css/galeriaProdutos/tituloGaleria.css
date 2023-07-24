@@ -12,7 +12,6 @@
   font-weight: 700;
   line-height: normal;
 }
-
 .titulo__galeria a {
   align-items: center;
   color: var(--cor-do-Bg-PCD);
@@ -20,7 +19,15 @@
   display: flex;
   gap: 4px;
   justify-content: center;
+  text-decoration: underlin;
 }
+
+
+.nome__produto:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 
 /*VER__TUDO*/
 @media only screen and (min-width: 400px) and (max-width: 600px) {
