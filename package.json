@@ -1,0 +1,22 @@
+{
+  "name": "ecommercealurageek",
+  "version": "1.0.0",
+  "description": "Aula de script 2, para criar uma loja",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Erro: nenhum teste especificado\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevSamirColiveira/ecommerceAluraGeek.git"
+  },
+  "author": "Samir Cavalcanti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/issues"
+  },
+  "homepage": "https://github.com/DevSamirColiveira/ecommerceAluraGeek#readme",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
