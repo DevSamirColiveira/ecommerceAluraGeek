@@ -56,7 +56,7 @@
   --cor-do-Bg-cinza:       #F5F5F5;
 
   /* Tamanho */
-  --max-width: calc(71rem + 4rem);
+  --max-width: calc(1136px + 64px);
 }	
 
 *,
@@ -79,7 +79,7 @@ body {
 
 @media only screen and (min-width: 1440px) {
   .container {
-    padding-left: calc((100% - 75rem)/2);
-    padding-right: calc((100% - 75rem)/2);
+    padding-left: calc((100% - 1200px)/2);
+    padding-right: calc((100% - 1200px)/2);
   }
 }
