@@ -1,0 +1,36 @@
+.adm__pag {
+  background-color: var(--cor-do-Bg-cinza);
+}
+
+@media only screen and (min-width: 280px) and (max-width: 470px) {
+  .adm__pag {
+    display: flex;
+    padding: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 479px) and (max-width: 680px) {
+  .adm__pag {
+    padding: 3.75rem;
+  }
+}
+
+@media only screen and (min-width: 685px) and (max-width: 768px) {
+  .adm__pag {
+    padding: 1.875rem;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1439px) {
+  .adm__pag {
+    display: flex;
+    padding: 5.625rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .adm__pag {
+    display: flex;
+    padding: 5.9375rem;
+  }
+}

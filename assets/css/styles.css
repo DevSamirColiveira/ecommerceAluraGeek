@@ -23,12 +23,12 @@
 
 /* rodape */
 @import url(./rodape/rodapeContainer.css);
-@import url(./rodape/rodapeFormulario.css);
 @import url(./rodape/rodapeDev.css);
 
 /* formulario */
 @import url(./rodape/formulario/formInput.css);
 @import url(./rodape/formulario/formTextarea.css);
+@import url(./rodape/formulario/rodapeForm.css);
 @import url(./rodape/formulario/formButao.css);
 
 /* login formulario */
@@ -38,3 +38,8 @@
 
 /* all produtos */
 @import url(./produtos/todosProdutos.css);
+
+/* adm */
+@import url(./produtos/adm/adm.css);
+@import url(./produtos/adm/admForm.css);
+@import url(./produtos/adm/admInput.css);

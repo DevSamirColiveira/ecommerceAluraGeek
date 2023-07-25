@@ -6,7 +6,7 @@ getBuscarProdutosDaAPI();
 async function getBuscarProdutosDaAPI (){
     const resposta = await fetch(endpointDaAPI)
     produtos = await resposta.json()
-    console.table(produtos) //ver em tabela
+    // console.table(produtos) //ver em tabela
     // let livrosComDesconto = aplicarDesconto(livros)
 
     // exibirOsLivrosNaTela(livrosComDesconto)
