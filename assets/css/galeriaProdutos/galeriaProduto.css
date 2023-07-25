@@ -66,3 +66,18 @@
     width: 11rem;
   }
 }
+
+/*oculta os 2 ultimos produtos*/
+@media (max-width: 1050px) {
+  .galeria__produtoLista div:nth-child(5),
+  .galeria__produtoLista div:nth-child(6) {
+      display:none;
+  }
+}
+
+@media (max-width: 1197px) {
+  .galeria__produtoLista div:nth-child(6),
+  .galeria__produtoLista div:nth-child(6) {
+      display:none;
+  }
+}

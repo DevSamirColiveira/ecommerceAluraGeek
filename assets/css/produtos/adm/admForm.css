@@ -50,8 +50,11 @@
     margin-bottom: 1.5219rem;
   }
   .botao__adm {
-    padding: 1.2813rem 11.5938rem;
+    padding: 20.5008px 145px;
     width: 100%;
+  }
+  .sv {
+    padding: 20.5008px 140px;
   }
 }
 
@@ -63,7 +66,10 @@
     margin-bottom: 1.5219rem;
   }
   .botao__adm {
-    padding: 1.2813rem 11.5938rem;
+    padding: 20.5008px 145px;
     width: 100%;
+  }
+  .sv {
+    padding: 20.5008px 140px;
   }
 }

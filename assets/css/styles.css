@@ -37,6 +37,7 @@
 @import url(./login/loginInput.css);
 
 /* all produtos */
+@import url(./produtos/produto.css);
 @import url(./produtos/todosProdutos.css);
 
 /* adm */
