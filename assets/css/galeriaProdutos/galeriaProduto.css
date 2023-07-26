@@ -13,7 +13,9 @@
 .imagem__produto {
   height: 9.375rem;
   width: 9.375rem;
+  object-fit: cover;
 }
+
 .nome__produto {
   color: var(-cor-do-texto);
   font-size: 0.875rem;

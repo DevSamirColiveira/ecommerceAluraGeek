@@ -16,6 +16,13 @@
   object-fit: cover;
 }
 
+.base__produto button {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .nome__tProduto, span {
   font-size: 14px;
   font-weight: 500;
@@ -24,20 +31,39 @@
   font-size: 16px;
   font-weight: 700;
 }
+
+/*os botões*/
 .delete__produto {
+  background-image: url(/assets/img/icons/delete.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
   right: 48px;
   top: 8px;
 }
+.delete__produto:hover {
+  background-image: url(/assets/img/icons/deletar.svg);
+}
+
 .editar__produto {
+  background-image: url(/assets/img/icons/edite.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
   right: 8px;
   top: 8px;
 }
-.base__produto button {
-  position: absolute;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
+.editar__produto:hover {
+  background-image: url(/assets/img/icons/editar.svg);
 }
+
+
+
+
 
 @media only screen and (min-width: 280px) and (max-width: 768px) {
   .tpdt {
