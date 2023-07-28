@@ -2,9 +2,17 @@
   align-items: center;
   background-color: var(--branco);
   display: flex;
-  height: 4.5rem;
   justify-content: space-between;
-  padding: 16px;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.loginFavoriteCarrinho{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 45px;
+  gap: 25px;
 }
 
 /* Tablet */
@@ -28,5 +36,6 @@
 @media only screen and (min-width: 1440px) {
   .cabecalho {
     height: 7.188rem;
+    background-color: var(--branco);
   }
 }

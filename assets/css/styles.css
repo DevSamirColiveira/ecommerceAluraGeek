@@ -1,46 +1,50 @@
-/* base */
+/* Base */
 @import url(./resetEnormalize/reset.css);
 @import url(./resetEnormalize/normalize.css);
 @import url(./base.css);
 
-/* cabecalho */
+/* Cabecalho */
 @import url(./cabecalho/cabecalho.css);
-@import url(./cabecalho/botaoLogin.css);
-@import url(./cabecalho/cabecalhoPesquisar.css);
 @import url(./cabecalho/logo.css);
+@import url(./cabecalho/pesquisa.css);
 
-/* banner */
+/* Botões */
+@import url(./cabecalho/botoes/carrinho.css);
+@import url(./cabecalho/botoes/favorite.css);
+@import url(./cabecalho/botoes/login.css);
+
+/* Banner */
 @import url(./banner/banner.css);
 @import url(./banner/bannerBotao.css);
 @import url(./banner/bannerTexto.css);
 @import url(./banner/bannerTitulo.css);
 @import url(./banner/divBanner.css);
 
-/* galeria de produtos */
+/* Galeria de produtos */
 @import url(./galeriaProdutos/galeriaContainer.css);
 @import url(./galeriaProdutos/galeriaProduto.css);
 @import url(./galeriaProdutos/tituloGaleria.css);
 
-/* rodape */
+/* Fodape */
 @import url(./rodape/rodapeContainer.css);
 @import url(./rodape/rodapeDev.css);
 
-/* formulario */
+/* Formulario */
 @import url(./rodape/formulario/formInput.css);
 @import url(./rodape/formulario/formTextarea.css);
 @import url(./rodape/formulario/rodapeForm.css);
 @import url(./rodape/formulario/formButao.css);
 
-/* login formulario */
+/* Login formulario */
 @import url(./login/login.css);
 @import url(./login/loginForm.css);
 @import url(./login/loginInput.css);
 
-/* all produtos */
+/* All produtos */
 @import url(./produtos/produto.css);
 @import url(./produtos/todosProdutos.css);
 
-/* adm */
+/* ADM */
 @import url(./produtos/adm/adm.css);
 @import url(./produtos/adm/admForm.css);
 @import url(./produtos/adm/admInput.css);

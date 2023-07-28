@@ -1,0 +1,17 @@
+.btnCarrinho {
+  background-color: transparent;
+  background-image: url(../../../img/icons/carrinho.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40px;
+  cursor: pointer;
+  padding: 12px 20px;
+}
+.btnCarrinho {
+  opacity: 0.6;
+  transition: 400ms;
+}
+
+.btnCarrinho:hover {
+  opacity: 1;
+}

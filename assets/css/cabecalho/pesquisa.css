@@ -5,13 +5,30 @@
 }
 .pesquisar__botao {
   background-color: transparent;
-  background-image: url(../../img/cabecalho/magnifyingGlass.svg);
+  background-image: url(../../img/icons/pesquisaZ.svg);
   background-position: center;
   background-repeat: no-repeat;
   border: none;
   cursor: pointer;
   padding: 0.9375rem 0.9375rem;
 }
+
+.logo__imagem {
+  background-color: transparent;
+  background-image: url(../../img/icons/logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  padding: 0.9375rem 0.9375rem;
+}
+
+
+
+
+
+
+
 :focus {
   outline: none;
   /* box-shadow: 0 0 2px var(--cor-do-titulo); */
@@ -137,7 +154,7 @@
 
 @media only screen and (min-width: 1440px) {
   .cabecalho__pesquisar {
-    gap: 2rem;
+    gap: 3rem;
   }
   .cabecalho__pesquisarInput {
     align-items: center;
