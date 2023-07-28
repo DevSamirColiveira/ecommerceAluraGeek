@@ -2,7 +2,7 @@
   "produtos": [
     {
       "id": 1,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-caneca-stormtrooper.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-caneca-stormtrooper.jpg?raw=true",
       "alt": "Caneca do Stormtrooper",
       "category": "starWars",
       "name": "Caneca Stormtrooper",
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-capacete-darth-vader.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-capacete-darth-vader.jpg?raw=true",
       "alt": "Capacete do Darth Vader",
       "category": "starWars",
       "name": "Capacete Darth Vader",
@@ -22,7 +22,7 @@
     },
     {
       "id": 3,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-wallpaper-yoda.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-wallpaper-yoda.jpg?raw=true",
       "alt": "Papel de Parede do Yoda",
       "category": "starWars",
       "name": "Wallpaper do Yoda",
@@ -32,7 +32,7 @@
     },
     {
       "id": 4,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-wallpaer-stormtrooper.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-wallpaer-stormtrooper.jpg?raw=true",
       "alt": "Wallpaer do Stormtrooper",
       "category": "starWars",
       "name": "Wallpaer Stormtrooper",
@@ -42,7 +42,7 @@
     },
     {
       "id": 5,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-wallpaper-darth-vader.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-wallpaper-darth-vader.jpg?raw=true",
       "alt": "Wallpaper do Darth Vader",
       "category": "starWars",
       "name": "Wallpaper Darth Vader",
@@ -52,7 +52,7 @@
     },
     {
       "id": 6,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-baby-yoda.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/st-baby-yoda.jpg?raw=true",
       "alt": "Boneco do Bebê Yoda",
       "category": "starWars",
       "name": "Boneco Baby Yoda",
@@ -62,7 +62,7 @@
     },
     {
       "id": 7,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-controle-xbox.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-controle-xbox.jpg?raw=true",
       "alt": "Controle Xbox Robot",
       "category": "Consoles",
       "name": "Controle Xbox - Robot",
@@ -72,7 +72,7 @@
     },
     {
       "id": 8,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-game-boy.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-game-boy.jpg?raw=true",
       "alt": "Game Boy",
       "category": "Consoles",
       "name": "Game Boy RG35XX",
@@ -82,7 +82,7 @@
     },
     {
       "id": 9,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-microsoft-xbox-x.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-microsoft-xbox-x.jpg?raw=true",
       "alt": "Microsoft Xbox Series X",
       "category": "Consoles",
       "name": "Microsoft Xbox Series X",
@@ -92,7 +92,7 @@
     },
     {
       "id": 10,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-nintendo-switch.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-nintendo-switch.jpg?raw=true",
       "alt": "Nintendo Switch RED",
       "category": "Consoles",
       "name": "Nintendo Switch RED V2",
@@ -102,7 +102,7 @@
     },
     {
       "id": 11,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-playstation-5.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-playstation-5.jpg?raw=true",
       "alt": "playstation 5 blu edition",
       "category": "Consoles",
       "name": "playstation 5 blu edition",
@@ -112,7 +112,7 @@
     },
     {
       "id": 12,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-nintendo-system.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/cs-nintendo-system.jpg?raw=true",
       "alt": "Nintendo E. System",
       "category": "Consoles",
       "name": "Nintendo E. System",
@@ -122,7 +122,7 @@
     },
     {
       "id": 13,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-boneco-do-sonic.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-boneco-do-sonic.jpg?raw=true",
       "alt": "boneco do sonic",
       "category": "Diversos",
       "name": "boneco do sonic",
@@ -132,7 +132,7 @@
     },
     {
       "id": 14,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-oculos-box2-0-realidade.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-oculos-box2-0-realidade.jpg?raw=true",
       "alt": "oculos box de realidade",
       "category": "Diversos",
       "name": "oculos box 2.0 realidade",
@@ -142,7 +142,7 @@
     },
     {
       "id": 15,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-pelucia-do-pikachu.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-pelucia-do-pikachu.jpg?raw=true",
       "alt": "Pokemon Pelucia do Pikachu",
       "category": "Diversos",
       "name": "Pokemon Pelucia Pikachu",
@@ -152,7 +152,7 @@
     },
     {
       "id": 16,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-wallpaer-atari.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-wallpaer-atari.jpg?raw=true",
       "alt": "wallpaer do atari",
       "category": "Diversos",
       "name": "wallpaer do atari",
@@ -162,7 +162,7 @@
     },
     {
       "id": 17,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-wallpaer-boy.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-wallpaer-boy.jpg?raw=true",
       "alt": "wallpaper do boygame",
       "category": "Diversos",
       "name": "wallpaper do boyGame",
@@ -172,7 +172,7 @@
     },
     {
       "id": 18,
-      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-wallpaer-radio-barbie.svg?raw=true",
+      "imageUrl": "https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/assets/img/produtos/dv-wallpaer-radio-barbie.jpg?raw=true",
       "alt": "radio da barbie",
       "category": "Diversos",
       "name": "radio da barbie",
