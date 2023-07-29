@@ -17,17 +17,17 @@
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-
   <header class="cabecalho containe">
     <div class="cabecalho__pesquisar container">
 
-      <div class="cabecalho__pesquisarInput">
-        <input class="pesquisar" type="search" id="txtPesquisar" placeholder="O que deseja encontrar?" value="">
-        <button class="pesquisar__botao busca"></button>
+      <div class="barra__pesquisar">
+        <input class="pesquisar" type="search" id="search" placeholder="O que deseja encontrar?" required value="" onclick="this.focus();this.select()">
+        <button class="botao__pesquisar busca"></button>
       </div>
       <a href="/" class="logo__imagem logo"></a>
     </div>
     <button class="pesquisar__botao"></button>
+    <!-- 3 botões -->
     <div class="loginFavoriteCarrinho">
       <div>
         <a href="/pages/login.html" class="btnLogin logns"></a>
@@ -40,6 +40,7 @@
       </div>
     </div>
   </header>
+
   <main class="containe">
     <section class="banner ">
       <div class="divBanner "></div>
@@ -50,7 +51,7 @@
       </div>
     </section>
 
-    <section class="galeria__container containe" id="starWars" data-produtos>
+    <section class="galeria__container containe" id="starWars" data-produtos-home>
 
       <div class="titulo__galeria">
         <h3>Star Wars</h3>
@@ -110,10 +111,9 @@
           <a href="/" class="carrinho__produto">Comprar</a>
         </div>
       </div>
-
     </section>
 
-    <section class="galeria__container containe" id="consoles" data-produtos>
+    <section class="galeria__container containe" id="consoles" data-produtos-home>
 
       <div class="titulo__galeria">
         <h3>Consoles</h3>
@@ -170,10 +170,9 @@
           <a href="/" class="carrinho__produto">Comprar</a>
         </div>
       </div>
-
     </section>
 
-    <section class="galeria__container containe" id="diversos" data-produtos>
+    <section class="galeria__container containe" id="diversos" data-produtos-home>
 
       <div class="titulo__galeria">
         <h3>Diversos</h3>
@@ -232,33 +231,34 @@
       </div>
     </section>
   </main>
+
   <footer>
     <div class="rodape__container">
       <div class="rodape__innerContainer">
         <div class="rodape__div">
-          <a class="logo__rodape" href="/" ><img src="./assets/img/icons/logo.svg" alt="logo do rodape"></a>
+          <a class="logo__rodape" href="/"><img src="./assets/img/icons/logo.svg" alt="logo do rodape"></a>
           
           <nav class="rodape__nav">
             <ul>
-              <li><a href="#">Quem somos nós</a></li>
-              <li><a href="#">Política de privacidade</a></li>
-              <li><a href="#">Programa fidelidade</a></li>
-              <li><a href="#">Nossas lojas</a></li>
-              <li><a href="#">Quero ser franqueado</a></li>
-              <li><a href="#">Anuncie aqui</a></li>
+              <li><a href="/">Quem somos nós</a></li>
+              <li><a href="/">Política de privacidade</a></li>
+              <li><a href="/">Programa fidelidade</a></li>
+              <li><a href="/">Nossas lojas</a></li>
+              <li><a href="/">Quero ser franqueado</a></li>
+              <li><a href="/">Anuncie aqui</a></li>
             </ul>
           </nav>
         </div>
-        <form class="rodape__form">
+        <form class="rodape__form" data-rodape-form>
           <strong>Fale conosco</strong>
           <div class="rodape__formInput">
-            <input placeholder="Nome" name="name"required>
+            <input placeholder="Nome" name="name"required data-rodape-form-nome>
             <label>Seu Nome</label>
           </div>
           <span class="erroR erroL">O campo nome é obrigatório.</span>
           <div class="rodape__textarea">
             <div class="textarea__custom">
-              <textarea placeholder="Escreva sua mensagem" name="message" required></textarea>
+              <textarea placeholder="Escreva sua mensagem" name="message" required data-rodape-form-mensagem></textarea>
               <label>Escreva sua mensagem</label>
             </div>
           </div>
@@ -272,8 +272,7 @@
       <span>2023</span>
     </div>
   </footer>
-
-  <script src="./assets/app/main.js"></script>
+  <!-- scripts -->
+  <!-- <script src="./assets/app/main.js"></script> -->
 </body>
-
 </html>

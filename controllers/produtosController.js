@@ -14,7 +14,4 @@ const novoProtudo = (name, id, imageUrl, alt, price) => {
   return card
 }
 
-const produtos = document.querySelector('[data-produtos]')
-
-
-
+const produtos = document.querySelector('[data-produtos-home]')
