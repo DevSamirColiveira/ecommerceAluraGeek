@@ -1,5 +1,5 @@
 let produtos = [];
-const endpointDaAPI = 'https://raw.githubusercontent.com/DevSamirColiveira/ecommerceAluraGeek/main/db.json';
+const endpointDaAPI = 'https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/db.json';
 // const endpointDaAPI = 'http://localhost:3000/produtos';
 
 getBuscarProdutosDaAPI();
