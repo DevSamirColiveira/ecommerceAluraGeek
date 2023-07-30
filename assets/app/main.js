@@ -17,11 +17,11 @@ function exibirOsProdutosNaTela(listaDeProdutos) {
     listaDeProdutos.forEach(produto => {
         elementoParaInserirProdutos.innerHTML += `
         <div class="Oproduto">
-          <img src="${produto.imageUrl}" alt="" class="imagem__produto">
+          <img src="${produto}" alt="${produto.alt}" class="imagem__produto">
           <h2 class="nome__produto">
-            <a href="./pages/produto.html">Stormtrooper</a>
+            <a href="./pages/produto.html">${produto.name}</a>
           </h2>
-          <p class="preco__produto">R$ 100,00</p>
+          <p class="preco__produto">R$ ${price}</p>
           <a href="/" class="carrinho__produto">Comprar</a>
         </div>
         `
