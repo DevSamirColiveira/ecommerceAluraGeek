@@ -1,27 +1,25 @@
 let produtos = [];
-// const endpointDaAPI = 'https://github.com/DevSamirColiveira/ecommerceAluraGeek/blob/main/db.json';
-const endpointDaAPI = 'http://localhost:3000/produtos';
+const bancoDadosDaAPI = 'http://localhost:3000/produtos';
 
+async function getBuscarProdutosDaAPI (titulo){
+  const resposta = await fetch(bancoDadosDaAPI)
+  produtos = await resposta.json()
+  console.table(produtos)
+  exibirOsProdutosNaTela(produtos)
+}
 getBuscarProdutosDaAPI();
 const elementoParaInserirProdutos = document.getElementById('starwars')
 
-
-async function getBuscarProdutosDaAPI (){
-    const resposta = await fetch(endpointDaAPI)
-    produtos = await resposta.json()
-    console.table(produtos)
-    exibirOsProdutosNaTela(produtos)
-}
 
 function exibirOsProdutosNaTela(listaDeProdutos) {
     listaDeProdutos.forEach(produto => {
       elementoParaInserirProdutos.innerHTML += `
         <div class="Oproduto">
-        <img src="${produto.imageUrl}" alt="${produto.alt}" class="imagem__produto">
+        <img src="${produto.imagem}" alt="${produto.alt}" class="imagem__produto">
         <h2 class="nome__produto">
-          <a href="./pages/produto.html">${produto.name}</a>
+          <a href="./pages/produto.html">${produto.titulo}</a>
         </h2>
-        <p class="preco__produto">R$ ${produto.price.toFixed(2)}</p>
+        <p class="preco__produto">R$ ${produto.valor.toFixed(2)}</p>
         <a href="/" class="carrinho__produto">Comprar</a>
         </div>
         `

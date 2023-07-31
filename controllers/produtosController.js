@@ -1,12 +1,12 @@
-const novoProtudo = (name, id, imageUrl, alt, price) => {
-  const card = document.createElement("div")
+const novoProtudo = (id, imagem, alt, categoria, titulo, valor, descricao) => {
+  const card = document.createElement("")
   const conteudo = `
   <div class="Oproduto">
-    <img class="imagem__produto" src="${imageUrl}" alt="${alt}">
+    <img src="${imagem}" alt="${alt}" class="imagem__produto">
     <h2 class="nome__produto">
-      <a href="./pages/produtos.html?id=${id}">${name}</a>
+      <a href="./pages/produto.html">${titulo}</a>
     </h2>
-    <p class="preco__produto">R$ ${price.toFixed(2)}</p>
+    <p class="preco__produto">R$ ${valor.toFixed(2)}</p>
     <a href="/" class="carrinho__produto">Comprar</a>
   </div>
   `
@@ -14,4 +14,8 @@ const novoProtudo = (name, id, imageUrl, alt, price) => {
   return card
 }
 
-const produtos = document.querySelector('[data-produtos-home]')
+const produtos = document.querySelector('[data-produtos-starwars]')
+
+/*
+id, imagem, alt, categoria, titulo, valor, descricao
+*/

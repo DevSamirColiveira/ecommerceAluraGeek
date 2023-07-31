@@ -1,25 +1,25 @@
 //GET
 const listaProdutos = () => {
   fetch("http://localhost:3000/produtos")
-  // fetch("https://raw.githubusercontent.com/DevSamirColiveira/ecommerceAluraGeek/main/db.json")
   .then(resposta => resposta.json())
   .catch(error => console.log(error));
 }
 
 //POST
-const criaProdutos = (imageUrl, alt, category, name, price, description) => {
+const criaProdutos = (id, imagem, alt, categoria, titulo, valor, descricao) => {
   fetch('', {
     method:"POST",
     headers: {
       "content-type": "application/json"
     },
     body: JSON.stringify({
-      imageUrl,
+      id,
+      imagem,
       alt,
-      category,
-      name,
-      price,
-      description
+      categoria,
+      titulo,
+      valor,
+      descricao
     }).then(resposta => {
       if (resposta.ok){
         return resposta.body
