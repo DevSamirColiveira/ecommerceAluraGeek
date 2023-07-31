@@ -61,22 +61,18 @@
   background-image: url(/assets/img/icons/editar.svg);
 }
 
-
-
-
-
 @media only screen and (min-width: 280px) and (max-width: 768px) {
   .tpdt {
     display: none;
   }
   .botao__ap {
-    width: 155px;
+    width: 180px;
     padding: 12px 16px;
 
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 899px) {
-  .gcc {
+  .gap {
     padding: 2rem;
   }
   .botao__ap {
