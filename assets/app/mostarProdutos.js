@@ -22,4 +22,5 @@ async function listaProduto() {
     produtoNaTela(elemento.imagem, elemento.alt, elemento.titulo, elemento.valor)
   ))
 }
+
 listaProduto();

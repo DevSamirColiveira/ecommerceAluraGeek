@@ -20,14 +20,28 @@
 
   <header class="cabecalho containe">
     <div class="cabecalho__pesquisar container">
+
+      <div class="barra__pesquisar">
+        <input class="pesquisar" type="search" id="search" placeholder="O que deseja encontrar?" required value="" onclick="this.focus();this.select()">
+        <button class="botao__pesquisar busca"></button>
+      </div>
       <a href="/" class="logo__imagem logo"></a>
-      <div class="cabecalho__pesquisarInput">
-        <input class="pesquisar" type="search" id="txtPesquisar" placeholder="O que deseja encontrar?" value="">
-        <button class="pesquisar__botao"></button>
+    </div>
+    
+    <!-- 3 botões -->
+    <div class="loginFavoriteCarrinho">
+      <div>
+        <a href="/pages/login.html" class="btnLogin logns"></a>
+      </div>
+      <div>
+        <a href="/" class="btnFavorite favorit"></a>
+      </div>
+      <div>
+        <a href="/" class="btnCarrinho shoop"></a>
       </div>
     </div>
-    <button class="pesquisar__botao"></button>
   </header>
+
   <main class="containe">
     <div class="galeria__container containe pg">
       <div class="detalhe__produto">
@@ -92,8 +106,6 @@
         </div>
       </div>
     </div>
-
-
 
   </main>
   <footer>
