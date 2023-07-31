@@ -16,11 +16,11 @@ function produtoNaTela(imagem, alt, titulo, valor) {
     return produto;
 }
 
-async function listaProduto() {
-  const listaApi = await conectaBancoAPI.listaProdutos();
+async function categoriaStarwars() {
+  const listaApi = await conectaBancoAPI.categoriaStarwars();
   listaApi.forEach(elemento => lista.appendChild(
     produtoNaTela(elemento.imagem, elemento.alt, elemento.titulo, elemento.valor)
   ))
 }
 
-listaProduto();
+categoriaStarwars();

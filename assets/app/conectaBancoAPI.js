@@ -26,8 +26,17 @@ async function criarProdutos(imagem, alt, categoria, titulo, valor, descricao) {
   return conexaoConvertida;
 }
 
+// As categorias
+async function categoriaStarwars() {
+  const conexao = await fetch("http://localhost:3000/produtos?q=starWars");
+  const conexaoConvertidaW = await conexao.json();
+  return conexaoConvertidaW;
+}
+
+
 // listaProdutos();
 export const conectaBancoAPI = {
   listaProdutos,
-  criarProdutos
+  criarProdutos,
+  categoriaStarwars
 }
