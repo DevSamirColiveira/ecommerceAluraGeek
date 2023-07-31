@@ -20,32 +20,39 @@
 
   <header class="cabecalho containe">
     <div class="cabecalho__pesquisar container">
+
+      <!-- <div class="barra__pesquisar">
+        <input class="pesquisar" type="search" id="search" placeholder="O que deseja encontrar?" required value="" onclick="this.focus();this.select()">
+        <button class="botao__pesquisar busca"></button>
+      </div> -->
       <a href="/" class="logo__imagem logo"></a>
-      <div class="cabecalho__pesquisarInput">
-        <input class="pesquisar" type="search" id="txtPesquisar" placeholder="O que deseja encontrar?" value="">
-        <button class="pesquisar__botao"></button>
-      </div>
     </div>
-    <button class="pesquisar__botao"></button>
-    <!-- <div>
-      <a href="#" class="btnLogin">login</a>
-    </div> -->
+
+    <div>
+      <a href="/" class="btn__sair">Home >>></a>
+    </div>
+
   </header>
   <main class="containe">
     <div class="login__pag">
       <form class="login__pagForm" data-loginForm>
         <strong>Iniciar Sessão</strong>
+
         <div class="login__input">
-          <input placeholder="Escreva seu email" class="login_dados" type="email" name="email" required data-loginnome>
+          <input placeholder="Escreva seu email" class="login_dados" type="email" name="email" id="loginemail" required>
           <label>Escreva seu email</label>
         </div>
-        <span class="erroR erroL">O campo e-mail é obrigatório.</span>
+        <div class="erroR erroL">O campo e-mail é obrigatório.</div>
+        <div class="erroR erroL">O e-mail é inválido.</div>
+
         <div class="login__input">
-          <input placeholder="Escreva sua senha" class="login_dados" type="password" name="password" required data-loginsenha>
+          <input placeholder="Escreva sua senha" class="login_dados" type="password" name="password" id="loginsenha" required>
           <label>Escreva sua senha</label>
         </div>
-        <span class="erroR erroL">O campo senha é obrigatório.</span>
-        <button type="submit" class="botao__submit botao__btn botao__login" data-entar>Entrar</button>
+        <div class="erroR erroL">O campo senha é obrigatório.</div>
+
+        <button type="submit" class="botao__submit botao__btn botao__login" data-entar onclick="logar(); return false">Entrar</button>
+
       </form>
     </div>
   </main>

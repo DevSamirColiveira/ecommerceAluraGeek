@@ -20,14 +20,17 @@
 
   <header class="cabecalho containe">
     <div class="cabecalho__pesquisar container">
-      <a href="/" class="logo__imagem logo"></a>
-      
-      <div class="cabecalho__pesquisarInput">
-        <input class="pesquisar" type="search" id="txtPesquisar" placeholder="O que deseja encontrar?" value="">
-        <button class="pesquisar__botao"></button>
+
+      <div class="barra__pesquisar">
+        <input class="pesquisar" type="search" id="search" placeholder="O que deseja encontrar?" required value="" onclick="this.focus();this.select()">
+        <button class="botao__pesquisar busca"></button>
       </div>
+      <a href="/" class="logo__imagem logo"></a>
     </div>
-    <button class="pesquisar__botao"></button>
+
+    <div>
+      <a href="/" class="btn__sair">Sair >>></a>
+    </div>
   </header>
   <main class="containe">
 
@@ -36,7 +39,7 @@
       <div class="titulo__galeria">
         <h3 class="tpdt">Todos os produtos</h3>
         <a href="/pages/add-produtos.html">
-          <button class="botao__submit botao__btn botao__ap">Adicionar Produto</button>
+          <button class="botao__submit botao__btn botao__ap">+ Adicionar Produto</button>
         </a>
       </div>
 

@@ -20,7 +20,7 @@ main {
 @media only screen and (min-width: 769px) and (max-width: 1439px) {
   .galeria__container {
     max-width: var(--max-width);
-    margin: 4rem auto;
+    margin: 0 auto 4rem auto;
     padding: 0 2rem;
   }
 }
@@ -28,7 +28,7 @@ main {
 @media only screen and (min-width: 1440px) {
   .galeria__container {
     max-width: var(--max-width);
-    margin: 4rem auto;
+    margin: 0 auto 4rem auto;
     padding: 0 2rem;
   }
 }
