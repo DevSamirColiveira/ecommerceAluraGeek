@@ -18,5 +18,8 @@
   "homepage": "https://github.com/DevSamirColiveira/ecommerceAluraGeek#readme",
   "dependencies": {
     "json-server": "^0.17.3"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
   }
 }

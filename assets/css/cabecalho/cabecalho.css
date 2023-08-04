@@ -7,6 +7,12 @@
   margin: 0 auto;
 }
 
+.cabecalho__pesquisar {
+  align-items: center;
+  display: flex;
+  /* gap: 2rem; */
+}
+
 .loginFavoriteCarrinho{
   display: flex;
   align-items: center;

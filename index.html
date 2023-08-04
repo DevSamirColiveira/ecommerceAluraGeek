@@ -18,15 +18,16 @@
 </head>
 <body>
   <header class="cabecalho containe">
-    <div class="cabecalho__pesquisar container">
+    <div class="cabecalho__pesquisa container">
 
       <div class="barra__pesquisar">
-        <input class="pesquisar" type="search" id="search" placeholder="O que deseja encontrar?" required value="" onclick="this.focus();this.select()">
-        <button class="botao__pesquisar busca"></button>
+        <input class="pesquisar__input" type="search" id="search" placeholder="O que deseja encontrar?" required value="" onclick="this.focus();this.select()">
+        <button class="botao__pesquisar__input"></button>
       </div>
+      <button class="btn__pesquisar"></button>
       <a href="/" class="logo__imagem logo"></a>
     </div>
-                                <!-- <button class="pesquisar__botao"></button> -->
+
     <!-- 3 botões -->
     <div class="loginFavoriteCarrinho">
       <div>
@@ -270,8 +271,6 @@
     </div>
   </footer>
   <!-- scripts -->
-  <!-- <script src="./assets/app/main.js"></script> -->
-  <!-- <script src="services/produtos-services.js"></script> -->
   <script src="assets/app/mostarProdutos.js" type="module"></script>
 </body>
 </html>

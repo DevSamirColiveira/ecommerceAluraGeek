@@ -1,6 +1,6 @@
 .logo__imagem {
-  background-color: transparent;
   background-image: url(../../img/icons/logo.svg);
+  background-color: transparent;
   background-position: center;
   background-repeat: no-repeat;
   border: none;
@@ -17,11 +17,21 @@
 /* Mobile */
 @media only screen and (min-width: 280px) and (max-width: 360px) {
   .logo__imagem {
+    background-image: url(../../img/icons/icone.png);
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
     width: 7.5rem;
   }
 }
 @media only screen and (min-width: 361px) and (max-width: 480px) {
   .logo__imagem {
+    background-image: url(../../img/icons/icone.png);
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
     margin-left: 1rem;
     width: 7.5rem;
   }

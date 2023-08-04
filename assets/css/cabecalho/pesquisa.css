@@ -1,23 +1,24 @@
-.cabecalho__pesquisar {
-  align-items: center;
-  display: flex;
-  /* gap: 2rem; */
-}
-
-.botao__pesquisar {
+/* Botões */
+.botao__pesquisar__input {
   background-color: transparent;
   background-image: url(../../img/icons/searchA.svg);
   background-position: center;
-  background-size: 26px;
   background-repeat: no-repeat;
+  background-size: 26px;
   border: none;
   cursor: pointer;
   padding: 12px 15px;
 }
-.botao__pesquisar:hover {
+.botao__pesquisar__input:hover {
   background-image: url(../../img/icons/searchZ.svg);
 }
 
+
+.btn__pesquisar {
+  display: none;
+}
+
+/* A Barra de Busca */
 .barra__pesquisar {
   align-items: center;
   background-color: var(--cor-do-Bg-cinza);
@@ -27,8 +28,13 @@
   gap: 10px;
   padding: 8px 16px;
   width: 392px;
+  display: block;
 }
-.pesquisar {
+.barra__pesquisar {
+  display: none;
+}
+
+.pesquisar__input {
   background-color: transparent;
   border: none;
   color: var(--cor-do-texto);
@@ -45,16 +51,35 @@
 
 /* Mobile */
 @media only screen and (min-width: 280px) and (max-width: 360px) {
+  
+  .btn__pesquisar {
+    display: block;
+  }
+
+
+
+
+  .btn__pesquisar {
+    background-color: transparent;
+    background-image: url(../../img/icons/searchA.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 26px;
+    border: none;
+    cursor: pointer;
+    padding: 12px 15px;
+  }
+  .btn__pesquisar:hover {
+    background-image: url(../../img/icons/searchZ.svg);
+  }
+
+
+
+
+
+
   .barra__pesquisar input {
     display: none;
-  }
-  .barra__pesquisar button {
-    display: none;
-  }
-  .botao__pesquisar {
-    cursor: default;
-    margin-right: -1rem;
-    order: 1;
   }
 }
 
@@ -62,11 +87,14 @@
   .barra__pesquisar input {
     display: none;
   }
-  .barra__pesquisar button {
-    display: none;
-  }
-  .botao__pesquisar {
+  .botao__pesquisar__input {
+    background-color: transparent;
+    background-image: url(../../img/icons/searchA.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 26px;
     cursor: default;
+    margin-right: -1rem;
     order: 1;
   }
 }
@@ -84,16 +112,9 @@
     gap: 0.5rem;
     padding: 0.5rem 1rem;
     width: 17rem;
-
   }
-  .barra__pesquisar button {
-    display: block;
-  }
-  .botao__pesquisar {
-    cursor: default;
-    display: none;
-  }
-  .pesquisar {
+  
+  .pesquisar__input {
     background-color: transparent;
     border: none;
     color: var(--cor-do-texto);
@@ -119,11 +140,11 @@
   .barra__pesquisar button {
     display: block;
   }
-  .botao__pesquisar {
+  .botao__pesquisar__input {
     cursor: default;
     display: none;
   }
-  .pesquisar {
+  .pesquisar__input {
     background-color: transparent;
     border: none;
     color: var(--cor-do-texto);
@@ -132,7 +153,7 @@
   }
 }
 
-@media only screen and (min-width: 102px) and (max-width: 1439px) {
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
   .cabecalho__pesquisar {
     gap: 2rem;
   }
@@ -148,11 +169,11 @@
   .barra__pesquisar button {
     display: block;
   }
-  .botao__pesquisar {
+  .botao__pesquisar__input {
     cursor: default;
     display: none;
   }
-  .pesquisar {
+  .pesquisar__input {
     background-color: transparent;
     border: none;
     color: var(--cor-do-texto);
@@ -177,11 +198,11 @@
   .barra__pesquisar button {
     display: block;
   }
-  .botao__pesquisar {
+  /* .botao__pesquisar__input {
     cursor: default;
     display: none;
-  }
-  .pesquisar {
+  } */
+  .pesquisar__input {
     background-color: transparent;
     border: none;
     color: var(--cor-do-texto);

@@ -1,0 +1,90 @@
+.btnLogin {
+  background-color: transparent;
+  background-image: url(../../../img/icons/login.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 40px;
+  padding: 12px 20px;
+}
+.btnLogin {
+  opacity: 0.6;
+  transition: 400ms;
+}
+
+.btnLogin:hover {
+  opacity: 1;
+}
+
+
+
+/* .btnLogin {
+  border: 1px solid var(--cor-da-Borda-SCD) ;
+  color: var(--cor-do-texto-SCD);
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+} */
+
+/* Mobile */
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+  .btnLogi {
+    padding: 0.5rem 0.75rem;
+    width: 6.5625rem;
+  }
+}
+/* 
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .btnLogi {
+    padding: 0.75rem 1rem;
+    width: 8.3125rem;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .btnLogi {
+    padding: 0.75rem 1rem;
+    width: 7.9375rem;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .btnLogi {
+    /* margin-right: 3.125rem; */
+    padding: 0.75rem 1rem;
+    width: 7.5rem;
+  }
+  .btnLogi:hover,
+  .btnLogi:focus {
+    background-color: var(--cor-do-Bg-SHD);
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1439px) {
+  .btnLogi {
+    margin-right: 5.625rem;
+    padding: 1rem;
+    width: 9.375rem;
+  }
+  .btnLogi:hover,
+  .btnLogi:focus {
+    background-color: var(--cor-do-Bg-SHD);
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .btnLogi {
+    margin-right: 6.25rem;
+    padding: 1rem;
+    width: 9.688rem;
+  }
+  .btnLogi:hover,
+  .btnLogi:focus {
+    background-color: var(--cor-do-Bg-SHD);
+    cursor: pointer;
+  }
+} */
